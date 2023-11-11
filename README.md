@@ -124,7 +124,7 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
 - **May 25, 2023:**  
   **Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 2)**  
   By: Polina Talapova  
-  [![Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 2)](https://img.youtube.com/vi/KS1v4xM9404/0.jpg)](https://youtu.be/KS1v4xM9404
+  [![Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 2)](https://img.youtube.com/vi/KS1v4xM9404/0.jpg)](https://youtu.be/KS1v4xM9404)
 
 
 ## Python, SWL, and R Programming Resources
