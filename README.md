@@ -196,7 +196,7 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
 
 - [Project Jupyter](https://jupyter.org/)
 - [What is the Jupyter Notebook?](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
-- [NIAID NIH] Informatics resources (https://bioinformatics.niaid.nih.gov/resources)
+- [NIAID NIH Informatics resources] (https://bioinformatics.niaid.nih.gov/resources)
 
 Software Carpentry is a website that provides free online lessons to researchers wanting to enhance their programming skills for data analysis. This website offers free online lessons on a variety of useful topics including:
 
