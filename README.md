@@ -40,8 +40,8 @@ flowchart TD
     J -->|If complete| K
 ```
 
-## OHDSI
-# Current CDM
+# 
+## Current CDM
 ![CDM54 Image](https://github.com/DBJHU/DBJHU.github.io/blob/main/cdm54.png)
 
 *Source: [OHDSI Common Data Model](https://ohdsi.github.io/CommonDataModel/index.html)*
