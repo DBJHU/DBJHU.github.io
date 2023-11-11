@@ -1,5 +1,3 @@
-# DBJHU.github.io
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -11,10 +9,10 @@
 # Introduction
 
 # Projects Best Suited for Observational Research and OHDSI Network Studies
-![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.bmp) 
+![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.png) 
 
 ## The Collaboration Process 
-### This is just an example of the kinds of diagrams we can make for our GitHub
+### This is just an example of the kinds of diagrams we can make
 ```mermaid
 flowchart TD
     A[PersonA receives a research request]
@@ -66,17 +64,6 @@ graph LR
 * NDC = National Drug Code
 * CPT = Current Procedural Terminology
 
-### OHDSI Resources
-- [The Book of OHDSI](https://ohdsi.github.io/TheBookOfOhdsi/CommonDataModel.html)
-- [OMOP CDM Documentation](https://ohdsi.github.io/CommonDataModel/cdm53.html)
-- [OHDSI Forums](https://forums.ohdsi.org/) for community support.
-- [Athena](https://athena.ohdsi.org/) to look up individual concepts in your data
-- [NIH ALL of US OMOP Documentation](https://support.researchallofus.org/hc/en-us/articles/360039585391-How-the-Observational-Medical-Outcomes-Partnership-OMOP-vocabulary-are-structured)
-
-
-### Data Limitations
-Be aware of limitations or biases in the data subset. Not all EHR data are represented in this subset.
-
 # Analysis Tools
 R, SQL, Python, or any preferred data analysis software. Examples provided below are for R and SQL.
 [The Book of OHDSI Chapter 9] (https://ohdsi.github.io/TheBookOfOhdsi/SqlAndR.html) provides an overview of analysis of OHDSI data in R and SQL; note that you will not be able to avail yourselves of OHDSI software tools when analyzing your exported data for the reason explained above.
@@ -86,6 +73,46 @@ R, SQL, Python, or any preferred data analysis software. Examples provided below
 
 Below you will find links to  helpful resources on using Jupyter Notebooks. 
 Below you will find links to some of the most helpful resources that we have created and/or found on using Jupyter Notebooks. While we can’t teach you how to program, we have identified some online resources that can help get you started.
+### OHDSI Resources
+Hello! Please familiarize yourself with the following tools and resources which will help you throughout this course and your OHDSI journey.
+
+Check out the [**OHDSI Forums**](https://forums.ohdsi.org/) *Introduce yourself on the "Welcome to OHDSI" thread.*
+
+Bookmark [**The Book of OHDSI**](https://ohdsi.github.io/TheBookOfOhdsi/)
+
+Join the OHDSI [**Microsoft Teams**](https://forms.office.com/Pages/ResponsePage.aspx?id=lAAPoyCRq0q6TOVQkCOy1ZyG6Ud_r2tKuS0HcGnqiQZUQ05MOU9BSzEwOThZVjNQVVFGTDNZRENONiQlQCN0PWcu) environment.
+
+Check out the [**MIMIC-IV demo data set**](https://physionet.org/content/mimic-iv-demo-omop/0.9/1_omop_data_csv/) in OMOP CDM format!
+
+Register with [**EHDEN Academy**](https://academy.ehden.eu/)
+
+Visit the [**Atlas Demo**](https://atlas-demo.ohdsi.org/) and [**Athena**](https://athena.ohdsi.org/search-terms/start).
+
+Bookmark the [**OHDSI YouTube tutorials and workshops**](https://youtube.com/playlist?list=PLpzbqK7kvfeXRQktX0PV-cRpb3EFA2e7Z)
+
+Visit the [**OHDSI Community Dashboard**](https://dash.ohdsi.org/)
+
+Bookmark [**OMOP Common Data Model (ohdsi.github.io)**](https://ohdsi.github.io/CommonDataModel/index.html)
+
+[**Learn about GitHub**](https://docs.github.com/en/get-started/quickstart/hello-world) if you don't already know.
+
+Plan to attend an [**OHDSI Community call**](https://ohdsi.org/community-calls/)
+
+Learn about OHDSI [**Workgroups**](https://ohdsi.org/upcoming-working-group-calls/)
+
+Follow OHDSI on social media: [**Twitter**](https://twitter.com/OHDSI) [**LinkedIn**](https://www.linkedin.com/company/ohdsi)
+
+[**Subscribe**](https://ohdsi.org/subscribe-to-our-newsletter/) to the OHDSI Newsletter
+
+Learn about past and [**upcoming OHDSI events**](https://ohdsi.org/2023-ohdsi-events/)
+
+Learn about OHDSI [**software**](https://ohdsi.org/software-tools/)
+
+Look up individual concepts in [Athena](https://athena.ohdsi.org/)
+
+Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documentation](https://support.researchallofus.org/hc/en-us/articles/360039585391-How-the-Observational-Medical-Outcomes-Partnership-OMOP-vocabulary-are-structured)
+
+## Python, SWL, and R Programming Resources
 
 - [Project Jupyter](https://jupyter.org/)
 - [What is the Jupyter Notebook?](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
