@@ -1,5 +1,3 @@
-# DBJHU.github.io
-
 <!DOCTYPE html>
 <html>
 <body>
