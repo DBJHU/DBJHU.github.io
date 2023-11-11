@@ -131,10 +131,6 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
   By: Jared Houghtaling  
   [![Achilles output demo](https://img.youtube.com/vi/bIRQVgcnAwI/0.jpg)](https://youtu.be/bIRQVgcnAwI)
 
-- **July 20, 2023:**  
-  **Project progress (Sites shared progress update)**  
-  By: Andrew Williams
-
 - **July 27, 2023:**  
   **Flowsheet follow-up**  
   By: Polina Talapova & Jared Houghtaling  
@@ -175,7 +171,7 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
   By: Jared Houghtaling  
   [![Sample ETL Process](https://img.youtube.com/vi/uX289BrzXM4/0.jpg)](https://youtu.be/uX289BrzXM4)
 
-- **October 12, 2023:**  
+**October 12, 2023:**  
   **Google Form for Site Progress Tracking**  
   With Jared Houghtaling and Andrew Williams  
   [![Google Form for Site Progress Tracking](https://img.youtube.com/vi/oTP6ISo8FWc/0.jpg)](https://youtu.be/oTP6ISo8FWc)
@@ -183,8 +179,17 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
 - **October 26, 2023:**  
   **Review and Prioritization of DQD Results, and Discussion of DQD Issue Severity**  
   With Jared Houghtaling  
-  [![Review and Prioritization
+  [![Review and Prioritization of DQD Results, and Discussion of DQD Issue Severity](https://img.youtube.com/vi/dJr5tkm-Ex4/0.jpg)](https://youtu.be/dJr5tkm-Ex4)
 
+- **November 2, 2023:**  
+  **Principles of Mapping and Vocab Gaps Identification**  
+  With Polina Talapova  
+  [![Principles of Mapping and Vocab Gaps Identification](https://img.youtube.com/vi/jOKzb3x6hmo/0.jpg)](https://youtu.be/jOKzb3x6hmo)
+
+- **November 9, 2023:**  
+  **Usagi & STCM Demo**  
+  With Polina Talapova & Jared Houghtailing  
+  [![Usagi & STCM Demo](https://img.youtube.com/vi/hNhph-elrp4/0.jpg)](https://youtu.be/hNhph-elrp4)
 
 
 ## Python, SWL, and R Programming Resources
