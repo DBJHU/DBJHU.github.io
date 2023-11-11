@@ -11,6 +11,45 @@
 # Projects Best Suited for Observational Research and OHDSI Network Studies
 ![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.png) 
 
+## (Same Table in Markdown)
+# Analytic Use Cases and Examples
+
+## Clinical characterization
+- **Disease Natural History**
+  - **Structure:** Amongst patients who are diagnosed with `<insert your favorite disease>`, what are the patient’s characteristics from their medical history?
+  - **Example:** Amongst patients with rheumatoid arthritis, what are their demographics (age, gender), prior conditions, medications, and health service utilization behaviors?
+
+- **Treatment utilization**
+  - **Structure:** Amongst patients who have `<insert your favorite disease>`, which treatments were patients exposed to amongst `<list of treatments for disease>` and in which sequence?
+  - **Example:** Amongst patients with depression, which treatments were patients exposed to SSRI, SNRI, TCA, bupropion, esketamine and in which sequence?
+
+- **Outcome incidence**
+  - **Structure:** Amongst patients who are new users of `<insert your favorite drug>`, how many patients experienced `<insert your favorite known adverse event from the drug profile>` within `<time horizon following exposure start>`?
+  - **Example:** Amongst patients who are new users of methylphenidate, how many patients experienced psychosis within 1 year of initiating treatment?
+
+## Population-level effect estimation
+- **Safety surveillance**
+  - **Structure:** Does exposure to `<insert your favorite drug>` increase the risk of experiencing `<insert an adverse event>` within `<time horizon following exposure start>`?
+  - **Example:** Does exposure to ACE inhibitor increase the risk of experiencing Angioedema within 1 month after exposure start?
+
+- **Comparative effectiveness**
+  - **Structure:** Does exposure to `<insert your favorite drug>` have a different risk of experiencing `<insert any outcome (safety or benefit)>` within `<time horizon following exposure start>`, relative to `<insert your comparator treatment>`?
+  - **Example:** Does exposure to ACE inhibitor have a different risk of experiencing acute myocardial infarction while on treatment, relative to thiazide diuretic?
+
+## Patient level prediction
+- **Disease onset and progression**
+  - **Structure:** For a given patient who is diagnosed with `<insert your favorite disease>`, what is the probability that they will go on to have `<another disease or related complication>` within `<time horizon from diagnosis>`?
+  - **Example:** For a given patient who is newly diagnosed with atrial fibrillation, what is the probability that they will go onto to have ischemic stroke in next 3 years?
+
+- **Treatment response**
+  - **Structure:** For a given patient who is a new user of `<insert your favorite chronically-used drug>`, what is the probability that they will `<insert desired effect>` in `<time window>`?
+  - **Example:** For a given patient with T2DM who start on metformin, what is the probability that they will maintain HbA1C<6.5% after 3 years?
+
+- **Treatment safety**
+  - **Structure:** For a given patient who is a new user of `<insert your favorite drug>`, what is the probability that they will experience `<insert adverse event>` within `<time horizon following exposure>`?
+  - **Example:** For a given patients who is a new user of warfarin, what is the probability that they will have GI bleed in 1 year?
+
+
 ## The Collaboration Process 
 ### This is just an example of the kinds of diagrams we can make
 ```mermaid
@@ -45,6 +84,7 @@ flowchart TD
 ![CDM54 Image](https://github.com/DBJHU/DBJHU.github.io/blob/main/cdm54.png)
 
 *Source: [OHDSI Common Data Model](https://ohdsi.github.io/CommonDataModel/index.html)*
+
 
 [Interactive (Select) OMOP Data Dictionary](https://github.com/DBJHU/DBJHU.github.io/blob/main/SelectOMOPDataDictionaryInteractivev2.html)
 
