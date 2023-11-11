@@ -192,7 +192,7 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
   [![Usagi & STCM Demo](https://img.youtube.com/vi/hNhph-elrp4/0.jpg)](https://youtu.be/hNhph-elrp4)
 
 
-## Python, SWL, and R Programming Resources
+## Python, SQL, and R Programming Resources
 
 - [Project Jupyter](https://jupyter.org/)
 - [What is the Jupyter Notebook?](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
@@ -207,6 +207,7 @@ Software Carpentry is a website that provides free online lessons to researchers
 We have included additional resources for help with programming below.
 
 - [DataCamp](http://www.datacamp.com/)
+- [Khan Academy](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
 - [Codecademy - Learn Python 2](https://www.codecademy.com/learn/learn-python)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [R for Data Science](https://r4ds.had.co.nz/)
