@@ -19,9 +19,8 @@ This is a place where I can easiy develop, test, and share markdown files for my
 #Current CDM
 ![Source: https://ohdsi.github.io/CommonDataModel/index.html] (CDM54.png)
 
-## The COllaboration Process
-<!-- Note for Clark: I realize this isn't completely accurate but wanted to get us started with the outline. -->
-```{mermaid}
+## The Collaboration Process
+```mermaid
 flowchart TD
     A[PersonA receives a research request]
     B[Person/group B sets up a meeting]
