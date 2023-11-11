@@ -65,15 +65,66 @@ graph LR
 * CPT = Current Procedural Terminology
 
 ### OHDSI Resources
-- [The Book of OHDSI](https://ohdsi.github.io/TheBookOfOhdsi/CommonDataModel.html)
-- [OMOP CDM Documentation](https://ohdsi.github.io/CommonDataModel/cdm53.html)
-- [OHDSI Forums](https://forums.ohdsi.org/) for community support.
-- [Athena](https://athena.ohdsi.org/) to look up individual concepts in your data
-- [NIH ALL of US OMOP Documentation](https://support.researchallofus.org/hc/en-us/articles/360039585391-How-the-Observational-Medical-Outcomes-Partnership-OMOP-vocabulary-are-structured)
+Hello!  Please familiarize yourself with the following tools and
+resources which will help you throughout this course and your OHDSI
+journey. 
 
+Check out the [**[OHDSI
+Forums]{.underline}**](https://forums.ohdsi.org/) *Introduce yourself on
+the \"Welcome to OHDSI thread.*
 
-### Data Limitations
-Be aware of limitations or biases in the data subset. Not all EHR data are represented in this subset.
+Bookmark [**[The Book of
+OHDSI]{.underline}**](https://ohdsi.github.io/TheBookOfOhdsi/)  
+
+Join the OHDSI [**Microsoft
+Teams**](https://forms.office.com/Pages/ResponsePage.aspx?id=lAAPoyCRq0q6TOVQkCOy1ZyG6Ud_r2tKuS0HcGnqiQZUQ05MOU9BSzEwOThZVjNQVVFGTDNZRENONiQlQCN0PWcu)
+environment.
+
+Check out the [**MIMIC-IV demo data
+set**](https://physionet.org/content/mimic-iv-demo-omop/0.9/1_omop_data_csv/)
+in OMOP CDM format!
+
+Register with [**[EHDEN
+Academy]{.underline}**](https://academy.ehden.eu/) 
+
+Visit the [**Atlas Demo**](https://atlas-demo.ohdsi.org/) and
+[**Athena**](https://athena.ohdsi.org/search-terms/start).
+
+Bookmark the [**[OHDSI YouTube tutorials and
+workshops]{.underline}**](https://youtube.com/playlist?list=PLpzbqK7kvfeXRQktX0PV-cRpb3EFA2e7Z) 
+
+Visit the [**[OHDSI Community
+Dashboard]{.underline}**](https://dash.ohdsi.org/) 
+
+Bookmark [**[OMOP Common Data Model
+(ohdsi.github.io)]{.underline}**](https://ohdsi.github.io/CommonDataModel/index.html) 
+
+[**[Learn about
+GitHub]{.underline}**](https://docs.github.com/en/get-started/quickstart/hello-world) if
+you don\'t already know.* *
+
+Plan to attend an [**[OHDSI Community
+call]{.underline}**](https://ohdsi.org/community-calls/) * *
+
+Learn about
+OHDSI [**[Workgroups]{.underline}**](https://ohdsi.org/upcoming-working-group-calls/) 
+
+Follow OHDSI on social
+media:  [**[Twitter]{.underline}**](https://twitter.com/OHDSI) [**[LinkedIn]{.underline}**](https://www.linkedin.com/company/ohdsi) 
+
+[**[Subscribe]{.underline}**](https://ohdsi.org/subscribe-to-our-newsletter/) to
+the OHDSI Newsletter
+
+Learn about past and [**[upcoming OHDSI
+events]{.underline}**](https://ohdsi.org/2023-ohdsi-events/)
+
+Learn about
+OHDSI [**[software]{.underline}**](https://ohdsi.org/software-tools/) 
+
+Look up individual concepts in [Athena](https://athena.ohdsi.org/)
+
+Check out useful OHDSI-related documnetation here: [NIH ALL of US OMOP Documentation](https://support.researchallofus.org/hc/en-us/articles/360039585391-How-the-Observational-Medical-Outcomes-Partnership-OMOP-vocabulary-are-structured)
+
 
 # Analysis Tools
 R, SQL, Python, or any preferred data analysis software. Examples provided below are for R and SQL.
