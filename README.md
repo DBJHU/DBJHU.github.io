@@ -44,6 +44,7 @@ flowchart TD
 # Current CDM
 ![Source: https://ohdsi.github.io/CommonDataModel/index.html](CDM54.png)
 
+[Interactive (Select) OMOP Data Dictionary](https://github.com/DBJHU/DBJHU.github.io/blob/main/SelectOMOPDataDictionaryInteractivev2.html)
 
 ```mermaid
 graph LR
