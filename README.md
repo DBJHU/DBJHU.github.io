@@ -115,6 +115,18 @@ Look up individual concepts in [Athena](https://athena.ohdsi.org/)
 
 Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documentation](https://support.researchallofus.org/hc/en-us/articles/360039585391-How-the-Observational-Medical-Outcomes-Partnership-OMOP-vocabulary-are-structured)
 
+# Recommended Trainings
+- **May 18, 2023:**  
+  **Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 1)**  
+  By: Polina Talapova  
+  [![Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 1)](https://img.youtube.com/vi/4aHQ_wqMYbE/0.jpg)](https://youtu.be/4aHQ_wqMYbE)
+
+- **May 25, 2023:**  
+  **Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 2)**  
+  By: Polina Talapova  
+  [![Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 2)](https://img.youtube.com/vi/KS1v4xM9404/0.jpg)](https://youtu.be/KS1v4xM9404
+
+
 ## Python, SWL, and R Programming Resources
 
 - [Project Jupyter](https://jupyter.org/)
