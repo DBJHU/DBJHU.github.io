@@ -116,15 +116,75 @@ Look up individual concepts in [Athena](https://athena.ohdsi.org/)
 Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documentation](https://support.researchallofus.org/hc/en-us/articles/360039585391-How-the-Observational-Medical-Outcomes-Partnership-OMOP-vocabulary-are-structured)
 
 # Recommended Trainings
-- **May 18, 2023:**  
-  **Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 1)**  
-  By: Polina Talapova  
-  [![Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 1)](https://img.youtube.com/vi/4aHQ_wqMYbE/0.jpg)](https://youtu.be/4aHQ_wqMYbE)
+- **June 15, 2023:**  
+  **Data Quality Dashboard**  
+  By: Jared Houghtaling  
+  [![Data Quality Dashboard](https://img.youtube.com/vi/O2L1x0Sv3lc/0.jpg)](https://youtu.be/O2L1x0Sv3lc)
 
-- **May 25, 2023:**  
-  **Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 2)**  
+- **July 6, 2023:**  
+  **Data Quality Dashboard output demo**  
+  By: Jared Houghtaling  
+  [![Data Quality Dashboard output demo](https://img.youtube.com/vi/qYDq5-dg-io/0.jpg)](https://youtu.be/qYDq5-dg-io)
+
+- **July 13, 2023:**  
+  **Achilles output demo**  
+  By: Jared Houghtaling  
+  [![Achilles output demo](https://img.youtube.com/vi/bIRQVgcnAwI/0.jpg)](https://youtu.be/bIRQVgcnAwI)
+
+- **July 20, 2023:**  
+  **Project progress (Sites shared progress update)**  
+  By: Andrew Williams
+
+- **July 27, 2023:**  
+  **Flowsheet follow-up**  
+  By: Polina Talapova & Jared Houghtaling  
+  [![Flowsheet follow-up](https://img.youtube.com/vi/3cTT2XJZslI/0.jpg)](https://youtu.be/3cTT2XJZslI)
+
+- **August 3, 2023:**  
+  **OMOP Standardized Vocabularies - Part 1**  
+  By: Jared Houghtaling and Polina Talapova  
+  [![OMOP Standardized Vocabularies - Part 1](https://img.youtube.com/vi/4xnH7-oJxyo/0.jpg)](https://youtu.be/4xnH7-oJxyo)
+
+- **August 17, 2023:**  
+  **OMOP Standardized Vocabularies - Part 2**  
   By: Polina Talapova  
-  [![Mapping of Critical Care EHR Flowsheet data to OMOP CDM via SSSOM (Pt 2)](https://img.youtube.com/vi/KS1v4xM9404/0.jpg)](https://youtu.be/KS1v4xM9404)
+  [![OMOP Standardized Vocabularies - Part 2](https://img.youtube.com/vi/1J7ISUASx6k/0.jpg)](https://youtu.be/1J7ISUASx6k)
+
+- **August 24, 2023:**  
+  **How to download and set-up a DDL (Demo)**  
+  By: Jared Houghtaling  
+  [![How to download and set-up a DDL (Demo)](https://img.youtube.com/vi/x9W3sa1xGoQ/0.jpg)](https://youtu.be/x9W3sa1xGoQ)
+
+- **August 31, 2023:**  
+  **Demo of WhiteRabbit and RabbitInAHat**  
+  By: Jared Houghtaling  
+  [![Demo of WhiteRabbit and RabbitInAHat](https://img.youtube.com/vi/gu1fQVwkBo8/0.jpg)](https://youtu.be/gu1fQVwkBo8)
+
+- **September 7, 2023:**  
+  **ARES usefulness for ETL at Tufts**  
+  By: Jared Houghtaling  
+  [![ARES usefulness for ETL at Tufts](https://img.youtube.com/vi/Czox3WT1pDM/0.jpg)](https://youtu.be/Czox3WT1pDM)
+
+- **September 14, 2023:**  
+  **Google form introduction for site progress tracking**  
+  By: Jared Houghtaling  
+  [![Google form introduction for site progress tracking](https://img.youtube.com/vi/ntZwikqhIcM/0.jpg)](https://youtu.be/ntZwikqhIcM)
+
+- **September 21, 2023:**  
+  **Sample ETL Process**  
+  By: Jared Houghtaling  
+  [![Sample ETL Process](https://img.youtube.com/vi/uX289BrzXM4/0.jpg)](https://youtu.be/uX289BrzXM4)
+
+- **October 12, 2023:**  
+  **Google Form for Site Progress Tracking**  
+  With Jared Houghtaling and Andrew Williams  
+  [![Google Form for Site Progress Tracking](https://img.youtube.com/vi/oTP6ISo8FWc/0.jpg)](https://youtu.be/oTP6ISo8FWc)
+
+- **October 26, 2023:**  
+  **Review and Prioritization of DQD Results, and Discussion of DQD Issue Severity**  
+  With Jared Houghtaling  
+  [![Review and Prioritization
+
 
 
 ## Python, SWL, and R Programming Resources
