@@ -49,7 +49,7 @@ flowchart TD
 ```
 
 ## OHDSI
-```{mermaid}
+```mermaid
 graph LR
     ICD9("ICD9") -->|Transformation to OMOP CDM| SNOMED("STANDARD<br>Vocabulary Concept Code<br>SNOMED")
     ICD10("ICD10") -->|Transformation to OMOP CDM| SNOMED
