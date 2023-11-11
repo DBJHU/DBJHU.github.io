@@ -11,7 +11,7 @@
 # Introduction
 
 # Projects Best Suited for Observational Research and OHDSI Network Studies
-![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.bmp) 
+![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.png) 
 
 ## The Collaboration Process 
 ### This is just an example of the kinds of diagrams we can make for our GitHub
