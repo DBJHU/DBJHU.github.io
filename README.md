@@ -64,66 +64,7 @@ graph LR
 * NDC = National Drug Code
 * CPT = Current Procedural Terminology
 
-### OHDSI Resources
-Hello!  Please familiarize yourself with the following tools and
-resources which will help you throughout this course and your OHDSI
-journey. 
 
-Check out the [**[OHDSI
-Forums]{.underline}**](https://forums.ohdsi.org/) *Introduce yourself on
-the \"Welcome to OHDSI thread.*
-
-Bookmark [**[The Book of
-OHDSI]{.underline}**](https://ohdsi.github.io/TheBookOfOhdsi/)  
-
-Join the OHDSI [**Microsoft
-Teams**](https://forms.office.com/Pages/ResponsePage.aspx?id=lAAPoyCRq0q6TOVQkCOy1ZyG6Ud_r2tKuS0HcGnqiQZUQ05MOU9BSzEwOThZVjNQVVFGTDNZRENONiQlQCN0PWcu)
-environment.
-
-Check out the [**MIMIC-IV demo data
-set**](https://physionet.org/content/mimic-iv-demo-omop/0.9/1_omop_data_csv/)
-in OMOP CDM format!
-
-Register with [**[EHDEN
-Academy]{.underline}**](https://academy.ehden.eu/) 
-
-Visit the [**Atlas Demo**](https://atlas-demo.ohdsi.org/) and
-[**Athena**](https://athena.ohdsi.org/search-terms/start).
-
-Bookmark the [**[OHDSI YouTube tutorials and
-workshops]{.underline}**](https://youtube.com/playlist?list=PLpzbqK7kvfeXRQktX0PV-cRpb3EFA2e7Z) 
-
-Visit the [**[OHDSI Community
-Dashboard]{.underline}**](https://dash.ohdsi.org/) 
-
-Bookmark [**[OMOP Common Data Model
-(ohdsi.github.io)]{.underline}**](https://ohdsi.github.io/CommonDataModel/index.html) 
-
-[**[Learn about
-GitHub]{.underline}**](https://docs.github.com/en/get-started/quickstart/hello-world) if
-you don\'t already know.* *
-
-Plan to attend an [**[OHDSI Community
-call]{.underline}**](https://ohdsi.org/community-calls/) * *
-
-Learn about
-OHDSI [**[Workgroups]{.underline}**](https://ohdsi.org/upcoming-working-group-calls/) 
-
-Follow OHDSI on social
-media:  [**[Twitter]{.underline}**](https://twitter.com/OHDSI) [**[LinkedIn]{.underline}**](https://www.linkedin.com/company/ohdsi) 
-
-[**[Subscribe]{.underline}**](https://ohdsi.org/subscribe-to-our-newsletter/) to
-the OHDSI Newsletter
-
-Learn about past and [**[upcoming OHDSI
-events]{.underline}**](https://ohdsi.org/2023-ohdsi-events/)
-
-Learn about
-OHDSI [**[software]{.underline}**](https://ohdsi.org/software-tools/) 
-
-Look up individual concepts in [Athena](https://athena.ohdsi.org/)
-
-Check out useful OHDSI-related documnetation here: [NIH ALL of US OMOP Documentation](https://support.researchallofus.org/hc/en-us/articles/360039585391-How-the-Observational-Medical-Outcomes-Partnership-OMOP-vocabulary-are-structured)
 
 
 # Analysis Tools
@@ -135,6 +76,44 @@ R, SQL, Python, or any preferred data analysis software. Examples provided below
 
 Below you will find links to  helpful resources on using Jupyter Notebooks. 
 Below you will find links to some of the most helpful resources that we have created and/or found on using Jupyter Notebooks. While we can’t teach you how to program, we have identified some online resources that can help get you started.
+### OHDSI Resources
+Hello! Please familiarize yourself with the following tools and resources which will help you throughout this course and your OHDSI journey.
+
+Check out the [**OHDSI Forums**](https://forums.ohdsi.org/) *Introduce yourself on the "Welcome to OHDSI" thread.*
+
+Bookmark [**The Book of OHDSI**](https://ohdsi.github.io/TheBookOfOhdsi/)
+
+Join the OHDSI [**Microsoft Teams**](https://forms.office.com/Pages/ResponsePage.aspx?id=lAAPoyCRq0q6TOVQkCOy1ZyG6Ud_r2tKuS0HcGnqiQZUQ05MOU9BSzEwOThZVjNQVVFGTDNZRENONiQlQCN0PWcu) environment.
+
+Check out the [**MIMIC-IV demo data set**](https://physionet.org/content/mimic-iv-demo-omop/0.9/1_omop_data_csv/) in OMOP CDM format!
+
+Register with [**EHDEN Academy**](https://academy.ehden.eu/)
+
+Visit the [**Atlas Demo**](https://atlas-demo.ohdsi.org/) and [**Athena**](https://athena.ohdsi.org/search-terms/start).
+
+Bookmark the [**OHDSI YouTube tutorials and workshops**](https://youtube.com/playlist?list=PLpzbqK7kvfeXRQktX0PV-cRpb3EFA2e7Z)
+
+Visit the [**OHDSI Community Dashboard**](https://dash.ohdsi.org/)
+
+Bookmark [**OMOP Common Data Model (ohdsi.github.io)**](https://ohdsi.github.io/CommonDataModel/index.html)
+
+[**Learn about GitHub**](https://docs.github.com/en/get-started/quickstart/hello-world) if you don't already know.
+
+Plan to attend an [**OHDSI Community call**](https://ohdsi.org/community-calls/)
+
+Learn about OHDSI [**Workgroups**](https://ohdsi.org/upcoming-working-group-calls/)
+
+Follow OHDSI on social media: [**Twitter**](https://twitter.com/OHDSI) [**LinkedIn**](https://www.linkedin.com/company/ohdsi)
+
+[**Subscribe**](https://ohdsi.org/subscribe-to-our-newsletter/) to the OHDSI Newsletter
+
+Learn about past and [**upcoming OHDSI events**](https://ohdsi.org/2023-ohdsi-events/)
+
+Learn about OHDSI [**software**](https://ohdsi.org/software-tools/)
+
+Look up individual concepts in [Athena](https://athena.ohdsi.org/)
+
+Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documentation](https://support.researchallofus.org/hc/en-us/articles/360039585391-How-the-Observational-Medical-Outcomes-Partnership-OMOP-vocabulary-are-structured)
 
 - [Project Jupyter](https://jupyter.org/)
 - [What is the Jupyter Notebook?](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
