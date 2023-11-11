@@ -42,7 +42,8 @@ flowchart TD
 
 ## OHDSI
 # Current CDM
-![Source: https://ohdsi.github.io/CommonDataModel/index.html](CDM54.png)
+![CDM54 Image](CDM54.png)
+*Source: [OHDSI Common Data Model](https://ohdsi.github.io/CommonDataModel/index.html)*
 
 [Interactive (Select) OMOP Data Dictionary](https://github.com/DBJHU/DBJHU.github.io/blob/main/SelectOMOPDataDictionaryInteractivev2.html)
 
