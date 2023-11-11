@@ -19,7 +19,8 @@ This is a place where I can easiy develop, test, and share markdown files for my
 #Current CDM
 ![Source: https://ohdsi.github.io/CommonDataModel/index.html] (CDM54.png)
 
-## The Collaboration Process
+## The Collaboration Process 
+### This is just an example of the kinds of diagrams we can make for our GitHub
 ```mermaid
 flowchart TD
     A[PersonA receives a research request]
