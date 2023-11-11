@@ -11,17 +11,13 @@ This is a place where I can easiy develop, test, and share markdown files for my
 </html>
 
 # Introduction
-
 # Projects Best Suited for Observational Research and OHDSI Network Studies
 ![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.bmp) 
 
 
-#Current CDM
-![Source: https://ohdsi.github.io/CommonDataModel/index.html] (CDM54.png)
-
-## The COllaboration Process
-<!-- Note for Clark: I realize this isn't completely accurate but wanted to get us started with the outline. -->
-```{mermaid}
+## The Collaboration Process 
+### This is just an example of the kinds of diagrams we can make for our GitHub
+```mermaid
 flowchart TD
     A[PersonA receives a research request]
     B[Person/group B sets up a meeting]
@@ -49,7 +45,11 @@ flowchart TD
 ```
 
 ## OHDSI
-```{mermaid}
+# Current CDM
+![Source: https://ohdsi.github.io/CommonDataModel/index.html](CDM54.png)
+
+
+```mermaid
 graph LR
     ICD9("ICD9") -->|Transformation to OMOP CDM| SNOMED("STANDARD<br>Vocabulary Concept Code<br>SNOMED")
     ICD10("ICD10") -->|Transformation to OMOP CDM| SNOMED
