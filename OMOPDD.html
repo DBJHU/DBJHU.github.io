@@ -99,7 +99,7 @@
             <td>person</td>
             <td>gender_source_value</td>
             <td>The source code for the self-reported gender or sex at birth for the participant as it appears in the
-                source data. The person’s response is mapped to a standard oncept in the Standardized Vocabularies; the
+                source data. The person’s response is mapped to a standard concept in the Standardized Vocabularies; the
                 original value is stored here for reference.</td>
         </tr>
         <tr>
@@ -263,12 +263,12 @@
         <tr>
             <td>visit_occurrence</td>
             <td>provider_id</td>
-            <td>A foreign key to the provider in the provider table who was associated with the visit.</td>
+            <td>A foreign key to the provider in the PROVIDER table who was associated with the visit.</td>
         </tr>
         <tr>
             <td>visit_occurrence</td>
             <td>care_site_id</td>
-            <td>A foreign key to the care site in the care site table that was visited</td>
+            <td>A foreign key to the care site in the CARE SITE table that was visited</td>
         </tr>
         <tr>
             <td>visit_occurrence</td>
@@ -305,7 +305,7 @@
         <tr>
             <td>visit_occurrence</td>
             <td>preceding_visit_occurrence_id</td>
-            <td>A foreign key to the visit_occurrence table of the visit immediately preceding this visit.</td>
+            <td>A foreign key to the VISIT_OCCURRENCE table of the visit immediately preceding this visit.</td>
         </tr>
         <tr>
             <td>visit_detail</td>
@@ -353,12 +353,12 @@
         <tr>
             <td>visit_detail</td>
             <td>provider_id</td>
-            <td>A foreign key to the provider in the provider table who was associated with the visit.</td>
+            <td>A foreign key to the provider in the PROVIDER table who was associated with the visit.</td>
         </tr>
         <tr>
             <td>visit_detail</td>
             <td>care_site_id</td>
-            <td>A foreign key to the care site in the care site table that was visited</td>
+            <td>A foreign key to the care site in the CARE SITE table that was visited</td>
         </tr>
         <tr>
             <td>visit_detail</td>
@@ -395,7 +395,7 @@
         <tr>
             <td>visit_detail</td>
             <td>preceding_visit_detail_id</td>
-            <td>A foreign key to the visit_occurrence table of the visit immediately preceding this visit.</td>
+            <td>A foreign key to the VISIT_OCCURRENCE table of the visit immediately preceding this visit.</td>
         </tr>
         <tr>
             <td>visit_detail</td>
@@ -858,7 +858,7 @@
             <td>observation_period</td>
             <td>person_id</td>
             <td>A foreign key identifier to the person for whom the observation period is defined. The demographic
-                details of that person are stored in the person table</td>
+                details of that person are stored in the PERSON table</td>
         </tr>
         <tr>
             <td>observation_period</td>
@@ -961,7 +961,7 @@
             <td>death</td>
             <td>person_id</td>
             <td>A foreign key identifier to the deceased person. The demographic details of that person are stored in
-                the person table.</td>
+                the PERSON table.</td>
         </tr>
         <tr>
             <td>death</td>
