@@ -126,6 +126,8 @@ Check out the [**OHDSI Forums**](https://forums.ohdsi.org/) *Introduce yourself 
 
 Bookmark [**The Book of OHDSI**](https://ohdsi.github.io/TheBookOfOhdsi/)
 
+Check out [**OHDSI FAQ**] (https://ohdsi.github.io/CommonDataModel/faq.html)
+
 Join the OHDSI [**Microsoft Teams**](https://forms.office.com/Pages/ResponsePage.aspx?id=lAAPoyCRq0q6TOVQkCOy1ZyG6Ud_r2tKuS0HcGnqiQZUQ05MOU9BSzEwOThZVjNQVVFGTDNZRENONiQlQCN0PWcu) environment.
 
 Check out the [**MIMIC-IV demo data set**](https://physionet.org/content/mimic-iv-demo-omop/0.9/1_omop_data_csv/) in OMOP CDM format!
