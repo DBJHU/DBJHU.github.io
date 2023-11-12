@@ -6,7 +6,8 @@
 </body>
 </html>
 
-For a sample interactive OMOP data dictionary, please visit:
+
+For a sample interactive OMOP data dictionary, please click on the image below:
 [![OMOP Data Dictionary Thumbnail](https://dbjhu.github.io/DDthumbnail.png)](https://dbjhu.github.io/OMOPDD.html)
 
 
