@@ -6,7 +6,9 @@
 </body>
 </html>
 
-For an interactive view of the OMOP data dictionary, please visit [this link](https://dbjhu.github.io/OMOPDD.html).
+For a sample interactive OMOP data dictionary, please visit:
+[![OMOP Data Dictionary Thumbnail](https://dbjhu.github.io/DDthumbnail.png)](https://dbjhu.github.io/OMOPDD.html)
+
 
 # Projects Best Suited for Observational Research and OHDSI Network Studies
 ![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.png) 
