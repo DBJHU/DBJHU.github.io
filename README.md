@@ -11,7 +11,7 @@ For a sample interactive OMOP data dictionary, please click on the image below:
 ![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.png) 
 
 # (This is the exact same table as in the image above only in Markdown)
-## Analytic Use Cases and Examples
+
 ## Analytic Use Cases and Examples
 
 | Analytic use case                     | Type                        | Structure                                                                                                               | Example                                                                                                                   |
