@@ -3,7 +3,6 @@
 ### Where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!
 
 # Table of Contents
-- [Welcome to my training material test lab and Markdown "sampler"](Welcome-to-my-training-material-test-lab-and-Markdown-sampler)
 - [OMOP CDM Basic Data Dictionary](#omop-cdm-basic-data-dictionary)
 - [Projects Best Suited for Observational Research and OHDSI Network Studies](#projects-best-suited-for-observational-research-and-ohdsi-network-studies)
 - [Analytic Use Cases and Examples](#analytic-use-cases-and-examples)
