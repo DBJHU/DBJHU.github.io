@@ -24,6 +24,19 @@ For an interactive view of the OMOP data dictionary, please visit [this link](ht
 |  | Treatment response | For a given patient who is a new user of `<insert your favorite chronically-used drug>`, what is the probability that they will `<insert desired effect>` in `<time window>`? | For a given patient with T2DM who start on metformin, what is the probability that they will maintain HbA1C<6.5% after 3 years? |
 |  | Treatment safety | For a given patient who is a new user of `<insert your favorite drug>`, what is the probability that they will experience `<insert adverse event>` within `<time horizon following exposure>`? | For a given patients who is a new user of warfarin, what is the probability that they will have GI bleed in 1 year? |
 
+## Incremental Loading
+
+Incremental loading in the context of OHDSI refers to the process of adding new or updated data to an existing OHDSI database without the need to completely rebuild or refresh the entire dataset. This can be particularly useful for large datasets where full loads can be time-consuming and inefficient. The process involves extracting only the changes since the last load and then transforming and loading this delta of data into the existing OMOP Common Data Model (CDM) used by OHDSI tools.
+
+For instance, in the development of an ETL (Extract, Transform, Load) process for the bulk and incremental load of German patient data into the OMOP CDM using FHIR as referenced by OHDSI, it suggests that the incremental loading is an essential part of keeping the database up-to-date in an efficient manner​. [OHDSI Symposium Showcase #44](https://ohdsi.org/2021-global-symposium-showcase-44/#:~:text=,Reinecke%2C%20Michele%20Zoch%2C%20Martin%20Sedlmayr)
+
+This is also described by Dr. DuWayne Willett, CMIO of UTSW, at around minute 30 of this video:
+
+[![OHDSI Symposium Presentation](http://img.youtube.com/vi/DPatSxFkIpI/0.jpg)](https://www.youtube.com/watch?v=DPatSxFkIpI "OHDSI Symposium Presentation by Dr. DuWayne Willett")
+
+...and in this OHDSI symposium presentation: ![OHDSI Symposium Presentation](https://www.ohdsi.org/wp-content/uploads/2023/10/10-Willett-Poster.png).
+
+
 
 ## The Collaboration Process 
 ### This is just an example of the kinds of diagrams we can make
