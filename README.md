@@ -24,7 +24,7 @@ For a sample interactive OMOP data dictionary, please click on the image below:
 
 
 ## The Collaboration Process 
-### This is just an example of the kinds of diagrams we can make
+### This is just an example of the kinds of diagrams we can make in Mermaid for our workflows
 ```mermaid
 flowchart TD
     A[PersonA receives a research request]
@@ -32,7 +32,7 @@ flowchart TD
     C[Iterative biomedical query mediation process begins]
     D[Project outline is created and signed off by all parties]
     E[Voucher/payment/estimate is produced including resource and timeframe]
-    F[Department head reviews/signs off on the voucher request]
+    F[Department head reviews/signs off]
     G[Work begins]
     H[First draft is produced with a notebook outlining results]
     I[Meeting is scheduled to review results of the notebook]
