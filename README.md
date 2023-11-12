@@ -147,6 +147,14 @@ Look up individual concepts in [Athena](https://athena.ohdsi.org/)
 Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documentation](https://support.researchallofus.org/hc/en-us/articles/360039585391-How-the-Observational-Medical-Outcomes-Partnership-OMOP-vocabulary-are-structured)
 
 # Recommended Trainings
+## OHDSI Community
+  **Broadsea3.0**  
+  By: Lee Evans  
+ [![Broadsea 3.0](https://img.youtube.com/vi/CNlsZzY7VrM/0.jpg)](https://youtu.be/CNlsZzY7VrM)
+
+
+
+## Tufts Bridge2AI Standards Module
 - **June 15, 2023:**  
   **Data Quality Dashboard**  
   By: Jared Houghtaling  

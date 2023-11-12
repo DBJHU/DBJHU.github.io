@@ -343,6 +343,14 @@ Welcome to my training material test lab! I’m hosted with GitHub Pages.
 </section>
 <section id="recommended-trainings" class="level1">
 <h1>Recommended Trainings</h1>
+<section id="ohdsi-community" class="level2">
+<h2 class="anchored" data-anchor-id="ohdsi-community">OHDSI Community</h2>
+<p><strong>Broadsea3.0</strong><br>
+By: Lee Evans<br>
+<a href="https://youtu.be/CNlsZzY7VrM"><img src="https://img.youtube.com/vi/CNlsZzY7VrM/0.jpg" class="img-fluid" alt="Broadsea 3.0"></a></p>
+</section>
+<section id="tufts-bridge2ai-standards-module" class="level2">
+<h2 class="anchored" data-anchor-id="tufts-bridge2ai-standards-module">Tufts Bridge2AI Standards Module</h2>
 <ul>
 <li><p><strong>June 15, 2023:</strong><br>
 <strong>Data Quality Dashboard</strong><br>
@@ -407,6 +415,7 @@ With Polina Talapova<br>
 With Polina Talapova &amp; Jared Houghtailing<br>
 <a href="https://youtu.be/hNhph-elrp4"><img src="https://img.youtube.com/vi/hNhph-elrp4/0.jpg" class="img-fluid" alt="Usagi &amp; STCM Demo"></a></p></li>
 </ul>
+</section>
 <section id="python-sql-and-r-programming-resources" class="level2">
 <h2 class="anchored" data-anchor-id="python-sql-and-r-programming-resources">Python, SQL, and R Programming Resources</h2>
 <ul>
@@ -488,6 +497,241 @@ With Polina Talapova &amp; Jared Houghtailing<br>
 
 To execute the Python queries, you'll need to install the pandas library. -->
 </section>
+</section>
+</section>
+<section id="omop-etl-process-common-problems-and-solutions" class="level1">
+<h1>OMOP ETL Process: Common Problems and Solutions</h1>
+<section id="design-and-planning" class="level2">
+<h2 class="anchored" data-anchor-id="design-and-planning">Design and Planning</h2>
+<table class="table">
+<colgroup>
+<col style="width: 41%">
+<col style="width: 58%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problem</th>
+<th>Suggestion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Different Coding Schemes in Databases</td>
+<td>Standardize structures, conventions, and content during ETL to align different coding schemes.</td>
+</tr>
+<tr class="even">
+<td>Designing ETL with Expert Collaboration</td>
+<td>Collaborate between data and CDM experts for efficient design.</td>
+</tr>
+<tr class="odd">
+<td>Inadequate Source Data Documentation</td>
+<td>Use White Rabbit to scan and understand source data thoroughly.</td>
+</tr>
+<tr class="even">
+<td>Mapping Source Data to CDM</td>
+<td>Use Rabbit-in-a-Hat tool for interactive mapping and documentation.</td>
+</tr>
+<tr class="odd">
+<td>Mapping Non-OMOP Coding Systems</td>
+<td>Focus on frequently used codes and utilize existing mappings where possible.</td>
+</tr>
+<tr class="even">
+<td>Handling Post Coordinated SNOMED Codes</td>
+<td>Address challenges with codes or conditions occurring multiple times.</td>
+</tr>
+<tr class="odd">
+<td>Integration of New Data Sources</td>
+<td>Develop a flexible ETL process to integrate new data sources.</td>
+</tr>
+<tr class="even">
+<td>Handling Various Data Formats</td>
+<td>Create processes to handle different data formats effectively.</td>
+</tr>
+<tr class="odd">
+<td>Custom Code Development for ETL</td>
+<td>Develop custom code when necessary for specific ETL requirements.</td>
+</tr>
+<tr class="even">
+<td>Adapting to CDM Updates</td>
+<td>Adapt ETL processes to accommodate updates in the CDM.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="implementation-and-technology" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-and-technology">Implementation and Technology</h2>
+<table class="table">
+<colgroup>
+<col style="width: 41%">
+<col style="width: 58%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problem</th>
+<th>Suggestion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ETL Implementation</td>
+<td>Utilize existing code and community resources for efficient ETL process implementation.</td>
+</tr>
+<tr class="even">
+<td>Choosing ETL Implementation Technology</td>
+<td>Select technology based on site expertise (SQL, SAS, C#, Java, etc.).</td>
+</tr>
+<tr class="odd">
+<td>Data Transformation Logic</td>
+<td>Clearly define and document the logic for data transformations.</td>
+</tr>
+<tr class="even">
+<td>ETL Performance Optimization</td>
+<td>Continuously monitor and optimize ETL performance.</td>
+</tr>
+<tr class="odd">
+<td>Scalability of ETL Processes</td>
+<td>Ensure that ETL processes are scalable to accommodate growing data.</td>
+</tr>
+<tr class="even">
+<td>Data Mapping Complexities</td>
+<td>Address complexities in mapping data from various sources to the CDM.</td>
+</tr>
+<tr class="odd">
+<td>Updating and Maintenance of ETL Scripts</td>
+<td>Regularly update and maintain ETL scripts for consistency.</td>
+</tr>
+<tr class="even">
+<td>Managing ETL Dependencies</td>
+<td>Identify and manage dependencies in the ETL process.</td>
+</tr>
+<tr class="odd">
+<td>Cross-Database Compatibility</td>
+<td>Ensure compatibility of ETL processes across different databases.</td>
+</tr>
+<tr class="even">
+<td>Optimizing Data Load Processes</td>
+<td>Optimize data load processes to enhance performance.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="data-quality-and-security" class="level2">
+<h2 class="anchored" data-anchor-id="data-quality-and-security">Data Quality and Security</h2>
+<table class="table">
+<colgroup>
+<col style="width: 41%">
+<col style="width: 58%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problem</th>
+<th>Suggestion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Data Quality Issues</td>
+<td>Implement thorough quality control measures to ensure data integrity.</td>
+</tr>
+<tr class="even">
+<td>Large Dataset Handling</td>
+<td>Optimize ETL processes for handling large datasets efficiently.</td>
+</tr>
+<tr class="odd">
+<td>Missing or Incomplete Data</td>
+<td>Develop strategies to handle missing or incomplete data elements.</td>
+</tr>
+<tr class="even">
+<td>Handling Data Anomalies</td>
+<td>Develop procedures to identify and resolve data anomalies.</td>
+</tr>
+<tr class="odd">
+<td>Data Security and Compliance</td>
+<td>Maintain strict adherence to data security and compliance standards.</td>
+</tr>
+<tr class="even">
+<td>Data Validation Processes</td>
+<td>Implement robust data validation processes to ensure accuracy.</td>
+</tr>
+<tr class="odd">
+<td>Error Handling in ETL Process</td>
+<td>Develop comprehensive error handling mechanisms.</td>
+</tr>
+<tr class="even">
+<td>Source Data Version Control</td>
+<td>Maintain version control for source data to track changes.</td>
+</tr>
+<tr class="odd">
+<td>Data Cleansing Procedures</td>
+<td>Establish data cleansing procedures to improve data quality.</td>
+</tr>
+<tr class="even">
+<td>Complex Transformation Rules</td>
+<td>Manage complex transformation rules efficiently.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="operational-management" class="level2">
+<h2 class="anchored" data-anchor-id="operational-management">Operational Management</h2>
+<table class="table">
+<colgroup>
+<col style="width: 41%">
+<col style="width: 58%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Problem</th>
+<th>Suggestion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Automation of ETL Processes</td>
+<td>Explore opportunities to automate repetitive ETL tasks.</td>
+</tr>
+<tr class="even">
+<td>Resource Allocation for ETL Tasks</td>
+<td>Allocate sufficient resources for ETL tasks.</td>
+</tr>
+<tr class="odd">
+<td>Maintaining Data Lineage</td>
+<td>Keep track of data lineage throughout the ETL process.</td>
+</tr>
+<tr class="even">
+<td>Balancing ETL Speed and Accuracy</td>
+<td>Balance the need for speed with accuracy in ETL processes.</td>
+</tr>
+<tr class="odd">
+<td>Training for ETL Team</td>
+<td>Provide comprehensive training for the ETL team.</td>
+</tr>
+<tr class="even">
+<td>Standardizing ETL Practices</td>
+<td>Standardize ETL practices across various projects.</td>
+</tr>
+<tr class="odd">
+<td>Monitoring ETL Processes</td>
+<td>Implement monitoring tools to oversee ETL processes.</td>
+</tr>
+<tr class="even">
+<td>Dealing with Data Duplication</td>
+<td>Develop strategies to handle data duplication issues.</td>
+</tr>
+<tr class="odd">
+<td>Dynamic Data Source Integration</td>
+<td>Integrate dynamic data sources effectively into the ETL process.</td>
+</tr>
+<tr class="even">
+<td>Data Transformation Standardization</td>
+<td>Standardize data transformation rules across different datasets.</td>
+</tr>
+<tr class="odd">
+<td>Collaboration and Communication</td>
+<td>Foster collaboration and communication among all stakeholders involved in the ETL process.</td>
+</tr>
+</tbody>
+</table>
 </section>
 </section>
 
