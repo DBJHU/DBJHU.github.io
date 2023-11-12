@@ -320,6 +320,7 @@ filtered_by_date_df <- subset(full_df, visit_start_date >= start_date & visit_st
 To execute the Python queries, you'll need to install the pandas library. -->
 
 
+<-- WIP
 
 # OMOP ETL Process: Common Problems and Solutions
 
@@ -378,4 +379,5 @@ To execute the Python queries, you'll need to install the pandas library. -->
 | Dealing with Data Duplication | Develop strategies to handle data duplication issues. |
 | Dynamic Data Source Integration | Integrate dynamic data sources effectively into the ETL process. |
 | Data Transformation Standardization | Standardize data transformation rules across different datasets. |
-| Collaboration and Communication | Foster collaboration and communication among all stakeholders involved in the ETL process. |
+| Collaboration and Communication | Foster collaboration and communication among all stakeholders involved in the ETL process. | 
+-->
