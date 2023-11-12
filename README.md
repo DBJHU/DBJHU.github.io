@@ -320,7 +320,7 @@ filtered_by_date_df <- subset(full_df, visit_start_date >= start_date & visit_st
 To execute the Python queries, you'll need to install the pandas library. -->
 
 
-<-- WIP
+<!--- WIP 
 
 # OMOP ETL Process: Common Problems and Solutions
 
