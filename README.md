@@ -1,5 +1,6 @@
-<h1>Welcome to my training material test lab and Markdown "sampler" where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!</h1>
+<h1>Welcome to my training material test lab and Markdown "sampler"! </h1>
 
+### Where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!
 
 # OMOP CDM Basic Data Dictionary 
 For a sample interactive OMOP data dictionary, please click on the image below:
