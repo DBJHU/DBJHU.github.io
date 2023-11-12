@@ -1,4 +1,4 @@
-<h1>Welcome to my training material test lab!</h1>
+<h1>Welcome to my training material test lab and Markdown "sampler" where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!</h1>
 
 
 For a sample interactive OMOP data dictionary, please click on the image below:
@@ -110,10 +110,14 @@ graph LR
 * NDC = National Drug Code
 * CPT = Current Procedural Terminology
 
-# Analysis Tools
+# OHDSI Analysis Tools
 R, SQL, Python, or any preferred data analysis software. Examples provided below are for R and SQL.
 [The Book of OHDSI Chapter 9] (https://ohdsi.github.io/TheBookOfOhdsi/SqlAndR.html) provides an overview of analysis of OHDSI data in R and SQL; note that you will not be able to avail yourselves of OHDSI software tools when analyzing your exported data for the reason explained above.
-<
+
+## Data Science Handbook
+[Open, rigorous and reproducible research: A practitioner’s handbook](https://datascience.stanford.edu/programs/stanford-data-science-scholars-program/data-science-handbook) 
+From Standord Data Science
+
 ## Jupyter Notebooks and programming
 [Source:NIH All of US Study] (https://support.researchallofus.org/hc/en-us/articles/360039690191-Jupyter-Notebooks-and-programming)
 
