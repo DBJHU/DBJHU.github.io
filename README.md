@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 <h1>Welcome to my training material test lab!</h1>
 <p></p>
 </body>
