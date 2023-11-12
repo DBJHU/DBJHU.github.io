@@ -22,10 +22,12 @@
 # OMOP CDM Basic Data Dictionary 
 For a sample interactive OMOP data dictionary, please click on the image below:
 [![OMOP Data Dictionary Thumbnail](https://dbjhu.github.io/DDthumbnail.png)](https://dbjhu.github.io/OMOPDD.html)
-
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
 # Projects Best Suited for Observational Research and OHDSI Network Studies
 ![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.png) 
+
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
 # (This is the exact same table as in the image above only in Markdown)
 
