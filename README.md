@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello!</h1>
-<p>Welcome to my training material test lab!  I'm hosted with GitHub Pages.</p>
+<h1>Welcome to my training material test lab!</h1>
+<p></p>
 </body>
 </html>
 
@@ -11,7 +11,7 @@
 # Projects Best Suited for Observational Research and OHDSI Network Studies
 ![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.png) 
 
-## (Same Table in Markdown)
+## (This is the exact same table as in the image above only in Markdown)
 # Analytic Use Cases and Examples
 | Analytic use case | Type | Structure | Example |
 | --- | --- | --- | --- |
