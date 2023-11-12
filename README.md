@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello!</h1>
-<p>Welcome to my training material test lab!  I'm hosted with GitHub Pages.</p>
+<h1>Welcome to my training material test lab!</h1>
+<p></p>
 </body>
 </html>
 
