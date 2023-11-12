@@ -2,6 +2,24 @@
 
 ### Where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!
 
+# Table of Contents
+- [Welcome to my training material test lab and Markdown "sampler"](Welcome-to-my-training-material-test-lab-and-Markdown-sampler)
+- [OMOP CDM Basic Data Dictionary](#omop-cdm-basic-data-dictionary)
+- [Projects Best Suited for Observational Research and OHDSI Network Studies](#projects-best-suited-for-observational-research-and-ohdsi-network-studies)
+- [Analytic Use Cases and Examples](#analytic-use-cases-and-examples)
+- [Incremental Loading](#incremental-loading)
+- [The Collaboration Process](#the-collaboration-process)
+- [Current CDM](#current-cdm)
+- [Commonly Used CDM Tables Overview](#commonly-used-cdm-tables-overview)
+- [OHDSI Analysis Tools](#ohdsi-analysis-tools)
+- [Data Science Handbook](#data-science-handbook)
+- [Jupyter Notebooks and programming](#jupyter-notebooks-and-programming)
+- [Recommended Trainings](#recommended-trainings)
+- [Python, SQL, and R Programming Resources](#python-sql-and-r-programming-resources)
+- [Analysis with SQL](#analysis-with-sql)
+- [Analysis with R](#analysis-with-r)
+
+
 # OMOP CDM Basic Data Dictionary 
 For a sample interactive OMOP data dictionary, please click on the image below:
 [![OMOP Data Dictionary Thumbnail](https://dbjhu.github.io/DDthumbnail.png)](https://dbjhu.github.io/OMOPDD.html)
