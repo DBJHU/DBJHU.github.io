@@ -126,7 +126,7 @@ Check out the [**OHDSI Forums**](https://forums.ohdsi.org/) *Introduce yourself 
 
 Bookmark [**The Book of OHDSI**](https://ohdsi.github.io/TheBookOfOhdsi/)
 
-Check out [**OHDSI FAQ**](https://ohdsi.github.io/CommonDataModel/faq.html)
+Check out [**OHOP CDM FAQ**](https://ohdsi.github.io/CommonDataModel/faq.html)
 
 Join the OHDSI [**Microsoft Teams**](https://forms.office.com/Pages/ResponsePage.aspx?id=lAAPoyCRq0q6TOVQkCOy1ZyG6Ud_r2tKuS0HcGnqiQZUQ05MOU9BSzEwOThZVjNQVVFGTDNZRENONiQlQCN0PWcu) environment.
 
