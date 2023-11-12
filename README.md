@@ -1,7 +1,4 @@
 <h1>Welcome to my training material test lab!</h1>
-<p></p>
-</body>
-</html>
 
 
 For a sample interactive OMOP data dictionary, please click on the image below:
