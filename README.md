@@ -158,6 +158,28 @@ graph LR
   <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
 
+#Differences between OMOP CDM 5.3 and 5.4
+
+```mermaid
+graph LR
+    A[VISIT_OCCURRENCE] -->|Renamed Fields| B[VISIT_OCCURRENCE v5.4]
+    C[VISIT_DETAIL] -->|Renamed and Added Fields| D[VISIT_DETAIL v5.4]
+    E[PROCEDURE_OCCURRENCE] -->|Added Fields| F[PROCEDURE_OCCURRENCE v5.4]
+    G[DEVICE_EXPOSURE] -->|Changed and Added Fields| H[DEVICE_EXPOSURE v5.4]
+    I[MEASUREMENT] -->|Added Fields| J[MEASUREMENT v5.4]
+    K[OBSERVATION] -->|Added Fields| L[OBSERVATION v5.4]
+    M[NOTE] -->|Added Fields| N[NOTE v5.4]
+    O[LOCATION] -->|Added Fields| P[LOCATION v5.4]
+    Q[EPISODE] -.->|New Table| R[EPISODE v5.4]
+    S[EPISODE_EVENT] -.->|New Table| T[EPISODE_EVENT v5.4]
+    U[METADATA] -.->|New Table| V[METADATA v5.4]
+    W[CDM_SOURCE] -->|Fields Now Mandatory| X[CDM_SOURCE v5.4]
+    Y[VOCABULARY] -->|Field Specification Changed| Z[VOCABULARY v5.4]
+    AA[ATTRIBUTE_DEFINITION] -.->|Removed| AB[No ATTRIBUTE_DEFINITION in v5.4]
+    AC[COHORT] -.->|New Table| AD[COHORT v5.4]
+'''
+
+
 # OHDSI Analysis Tools
 R, SQL, Python, or any preferred data analysis software. Examples provided below are for R and SQL.
 [The Book of OHDSI Chapter 9] (https://ohdsi.github.io/TheBookOfOhdsi/SqlAndR.html) provides an overview of analysis of OHDSI data in R and SQL; note that you will not be able to avail yourselves of OHDSI software tools when analyzing your exported data for the reason explained above.
