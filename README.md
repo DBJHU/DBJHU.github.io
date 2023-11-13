@@ -160,13 +160,46 @@ graph LR
 
 #Differences between OMOP CDM 5.3 and 5.4
 
-```mermaid
-graph LR
-    VISIT_OCCURRENCE -- "Renamed" -->|Admitting_source_concept_id to Admitted_from_concept_id| VISIT_OCCURRENCE1
-    VISIT_OCCURRENCE -- "Renamed" -->|Admitting_source_value to Admitted_from_source_value| VISIT_OCCURRENCE2
-    VISIT_OCCURRENCE -- "Renamed" -->|Discharge_to_concept_id to Discharged_to_concept_id| VISIT_OCCURRENCE3
-    VISIT_OCCURRENCE -- "Renamed" -->|Discharge_to_source_value to Discharged_to_source_value| VISIT_OCCURRENCE4
-```
+| Table                | Change from v5.3 to v5.4                                                                                     |
+|----------------------|--------------------------------------------------------------------------------------------------------------|
+| PERSON               | No change                                                                                                    |
+| OBSERVATION_PERIOD   | No change                                                                                                    |
+| VISIT_OCCURRENCE     | Admitting_source_concept_id -> Admitted_from_concept_id<br>Admitting_source_value -> Admitted_from_source_value<br>Discharge_to_concept_id -> Discharged_to_concept_id<br>Discharge_to_source_value -> Discharged_to_source_value |
+| VISIT_DETAIL         | Admitting_source_concept_id -> Admitted_from_concept_id<br>Admitting_source_value -> Admitted_from_source_value<br>Discharge_to_concept_id -> Discharged_to_concept_id<br>Discharge_to_source_value -> Discharged_to_source_value<br>Visit_detail_parent_id -> Parent_visit_detail_id |
+| CONDITION_OCCURRENCE | No change                                                                                                    |
+| DRUG_EXPOSURE        | No change                                                                                                    |
+| PROCEDURE_OCCURRENCE | + Procedure_end_date<br>+ Procedure_end_datetime                                                             |
+| DEVICE_EXPOSURE      | Unique_device_id -> Changed to varchar(255)<br>+ Production_id<br>+ Unit_concept_id<br>+ Unit_source_value<br>+ Unit_source_concept_id |
+| MEASUREMENT          | + Unit_source_concept_id<br>+ Measurement_event_id<br>+ Meas_event_field_concept_id                         |
+| OBSERVATION          | + Value_source_value<br>+ Observation_event_id<br>+ Obs_event_field_concept_id                              |
+| DEATH                | No change                                                                                                    |
+| NOTE                 | + Note_event_id<br>+ Note_event_field_concept_id                                                             |
+| NOTE_NLP             | No change                                                                                                    |
+| SPECIMEN             | No change                                                                                                    |
+| FACT_RELATIONSHIP    | No change                                                                                                    |
+| LOCATION             | + Country_concept_id<br>+ Country_source_value<br>+ Latitude<br>+ Longitude                                 |
+| CARE_SITE            | No change                                                                                                    |
+| PAYER_PLAN_PERIOD    | No change                                                                                                    |
+| COST                 | No change                                                                                                    |
+| DRUG_ERA             | No change                                                                                                    |
+| DOSE_ERA             | No change                                                                                                    |
+| CONDITION_ERA        | No change                                                                                                    |
+| EPISODE              | + episode_id<br>+ person_id<br>+ episode_concept_id<br>+ episode_start_date<br>+ episode_start_datetime<br>+ episode_end_date<br>+ episode_end_datetime<br>+ episode_parent_id<br>+ episode_number<br>+ episode_object_concept_id<br>+ episode_type_concept_id<br>+ episode_source_value<br>+ episode_source_concept_id |
+| EPISODE_EVENT        | + episode_id<br>+ event_id<br>+ episode_event_field_concept_id                                               |
+| METADATA             | + Metadata_id<br>+ Value_as_number                                                                           |
+| CDM_SOURCE           | Cdm_source_name -> Mandatory field<br>Cdm_source_abbreviation -> Mandatory field<br>Cdm_holder -> Mandatory field<br>Source_release_date -> Mandatory field<br>Cdm_release_date -> Mandatory field<br>+ Cdm_version_concept_id |
+| CONCEPT              | No change                                                                                                    |
+| VOCABULARY           | Vocabulary_reference -> Non-mandatory field<br>Vocabulary_version -> Non-mandatory field                     |
+| DOMAIN               | No change                                                                                                    |
+| CONCEPT_CLASS        | No change                                                                                                    |
+| CONCEPT_RELATIONSHIP | No change                                                                                                    |
+| RELATIONSHIP         | No change                                                                                                    |
+| CONCEPT_SYNONYM      | No change                                                                                                    |
+| CONCEPT_ANCESTOR     | No change                                                                                                    |
+| SOURCE_TO_CONCEPT_MAP| No change                                                                                                    |
+| DRUG_STRENGTH        | No change                                                                                                    |
+| ATTRIBUTE_DEFINITION | -                                                                                                            |
+| COHORT               | + cohort_definition_id<br>+ subject_id<br>+ cohort_start_date<br>+ cohort_end_date                          |
 
 # OHDSI Analysis Tools
 R, SQL, Python, or any preferred data analysis software. Examples provided below are for R and SQL.
