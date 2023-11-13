@@ -53,6 +53,9 @@ For a sample interactive OMOP data dictionary, please click on the image below:
 
 <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
+# Standardized vocabularies
+[Dr. Rachel Richesson presents “Learning to Use EHR Data in Learning Health Systems](https://youtu.be/4uXqNLsiVuc?feature=shared)
+
 ## Incremental Loading
 
 Incremental loading in the context of OHDSI refers to the process of adding new or updated data to an existing OHDSI database without the need to completely rebuild or refresh the entire dataset. This can be particularly useful for large datasets where full loads can be time-consuming and inefficient. The process involves extracting only the changes since the last load and then transforming and loading this delta of data into the existing OMOP Common Data Model (CDM) used by OHDSI tools.
