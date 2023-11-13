@@ -166,43 +166,6 @@ graph LR
     VISIT_OCCURRENCE -- "Renamed" -->|Admitting_source_value to Admitted_from_source_value| VISIT_OCCURRENCE2
     VISIT_OCCURRENCE -- "Renamed" -->|Discharge_to_concept_id to Discharged_to_concept_id| VISIT_OCCURRENCE3
     VISIT_OCCURRENCE -- "Renamed" -->|Discharge_to_source_value to Discharged_to_source_value| VISIT_OCCURRENCE4
-    VISIT_DETAIL -- "Renamed" -->|Admitting_source_concept_id to Admitted_from_concept_id| VISIT_DETAIL1
-    VISIT_DETAIL -- "Renamed" -->|Admitting_source_value to Admitted_from_source_value| VISIT_DETAIL2
-    VISIT_DETAIL -- "Renamed" -->|Discharge_to_concept_id to Discharged_to_concept_id| VISIT_DETAIL3
-    VISIT_DETAIL -- "Renamed" -->|Discharge_to_source_value to Discharged_to_source_value| VISIT_DETAIL4
-    VISIT_DETAIL -- "Renamed" -->|Visit_detail_parent_id to Parent_visit_detail_id| VISIT_DETAIL5
-    PROCEDURE_OCCURRENCE -- "Added" -->|Procedure_end_date| PROCEDURE_OCCURRENCE1
-    PROCEDURE_OCCURRENCE -- "Added" -->|Procedure_end_datetime| PROCEDURE_OCCURRENCE2
-    DEVICE_EXPOSURE -- "Changed type" -->|Unique_device_id to varchar(255)| DEVICE_EXPOSURE1
-    DEVICE_EXPOSURE -- "Added" -->|Production_id| DEVICE_EXPOSURE2
-    DEVICE_EXPOSURE -- "Added" -->|Unit_concept_id| DEVICE_EXPOSURE3
-    DEVICE_EXPOSURE -- "Added" -->|Unit_source_value| DEVICE_EXPOSURE4
-    DEVICE_EXPOSURE -- "Added" -->|Unit_source_concept_id| DEVICE_EXPOSURE5
-    MEASUREMENT -- "Added" -->|Unit_source_concept_id| MEASUREMENT1
-    MEASUREMENT -- "Added" -->|Measurement_event_id| MEASUREMENT2
-    MEASUREMENT -- "Added" -->|Meas_event_field_concept_id| MEASUREMENT3
-    OBSERVATION -- "Added" -->|Value_source_value| OBSERVATION1
-    OBSERVATION -- "Added" -->|Observation_event_id| OBSERVATION2
-    OBSERVATION -- "Added" -->|Obs_event_field_concept_id| OBSERVATION3
-    NOTE -- "Added" -->|Note_event_id| NOTE1
-    NOTE -- "Added" -->|Note_event_field_concept_id| NOTE2
-    LOCATION -- "Added" -->|Country_concept_id| LOCATION1
-    LOCATION -- "Added" -->|Country_source_value| LOCATION2
-    LOCATION -- "Added" -->|Latitude| LOCATION3
-    LOCATION -- "Added" -->|Longitude| LOCATION4
-    CDM_SOURCE -- "Mandatory" -->|Cdm_source_name| CDM_SOURCE1
-    CDM_SOURCE -- "Mandatory" -->|Cdm_source_abbreviation| CDM_SOURCE2
-    CDM_SOURCE -- "Mandatory" -->|Cdm_holder| CDM_SOURCE3
-    CDM_SOURCE -- "Mandatory" -->|Source_release_date| CDM_SOURCE4
-    CDM_SOURCE -- "Mandatory" -->|Cdm_release_date| CDM_SOURCE5
-    CDM_SOURCE -- "Added" -->|Cdm_version_concept_id| CDM_SOURCE6
-    VOCABULARY -- "Non-mandatory" -->|Vocabulary_reference| VOCABULARY1
-    VOCABULARY -- "Non-mandatory" -->|Vocabulary_version| VOCABULARY2
-    ATTRIBUTE_DEFINITION -.->|Removed| ATTRIBUTE_DEFINITION1
-    COHORT -.->|New Table| COHORT1
-    EPISODE -.->|New Table| EPISODE1
-    METADATA -- "Added" -->|Metadata_id| METADATA1
-    METADATA -- "Added" -->|Value_as_number| METADATA2
 ```
 
 # OHDSI Analysis Tools
