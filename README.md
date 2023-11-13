@@ -3,6 +3,8 @@
 ### Where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!
 
 # Table of Contents
+
+- (OHDSI_RESOURCES](#ohdsi-resources]
 - [OMOP CDM Basic Data Dictionary](#omop-cdm-basic-data-dictionary)
 - [Projects Best Suited for Observational Research and OHDSI Network Studies](#projects-best-suited-for-observational-research-and-ohdsi-network-studies)
 - [Analytic Use Cases and Examples](#analytic-use-cases-and-examples)
@@ -70,6 +72,7 @@ This is also described by Dr. DuWayne Willett, CMIO of UTSW, at around minute 30
 
 ## The Collaboration Process 
 ### This is just an example of the kinds of diagrams we can make in Mermaid for our workflows
+
 ```mermaid
 flowchart TD
     A[PersonA receives a research request]
@@ -98,7 +101,7 @@ flowchart TD
 ```
 <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
-# 
+#
 ## Current CDM
 ![CDM54 Image](https://github.com/DBJHU/DBJHU.github.io/blob/main/cdm54.png)
 
@@ -191,7 +194,7 @@ Additional resources:
 
 <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
-### OHDSI Resources
+# OHDSI Resources
 Hello! Please familiarize yourself with the following tools and resources which will help you throughout this course and your OHDSI journey.
 
 Check out the [**OHDSI Forums**](https://forums.ohdsi.org/) *Introduce yourself on the "Welcome to OHDSI" thread.*
