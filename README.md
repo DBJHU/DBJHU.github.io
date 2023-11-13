@@ -4,7 +4,7 @@
 
 # Table of Contents
 
-- [OHDSI_Resources](#ohdsi-resources]
+- [OHDSI_Resources](#ohdsi-resources)
 - [OMOP CDM Basic Data Dictionary](#omop-cdm-basic-data-dictionary)
 - [Projects Best Suited for Observational Research and OHDSI Network Studies](#projects-best-suited-for-observational-research-and-ohdsi-network-studies)
 - [Analytic Use Cases and Examples](#analytic-use-cases-and-examples)
