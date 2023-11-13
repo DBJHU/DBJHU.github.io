@@ -160,23 +160,64 @@ graph LR
 
 #Differences between OMOP CDM 5.3 and 5.4
 
-```mermaid
+'''mermaid
 graph LR
-    A[VISIT_OCCURRENCE] -->|Renamed Fields| B[VISIT_OCCURRENCE v5.4]
-    C[VISIT_DETAIL] -->|Renamed and Added Fields| D[VISIT_DETAIL v5.4]
-    E[PROCEDURE_OCCURRENCE] -->|Added Fields| F[PROCEDURE_OCCURRENCE v5.4]
-    G[DEVICE_EXPOSURE] -->|Changed and Added Fields| H[DEVICE_EXPOSURE v5.4]
-    I[MEASUREMENT] -->|Added Fields| J[MEASUREMENT v5.4]
-    K[OBSERVATION] -->|Added Fields| L[OBSERVATION v5.4]
-    M[NOTE] -->|Added Fields| N[NOTE v5.4]
-    O[LOCATION] -->|Added Fields| P[LOCATION v5.4]
-    Q[EPISODE] -.->|New Table| R[EPISODE v5.4]
-    S[EPISODE_EVENT] -.->|New Table| T[EPISODE_EVENT v5.4]
-    U[METADATA] -.->|New Table| V[METADATA v5.4]
-    W[CDM_SOURCE] -->|Fields Now Mandatory| X[CDM_SOURCE v5.4]
-    Y[VOCABULARY] -->|Field Specification Changed| Z[VOCABULARY v5.4]
-    AA[ATTRIBUTE_DEFINITION] -.->|Removed| AB[No ATTRIBUTE_DEFINITION in v5.4]
-    AC[COHORT] -.->|New Table| AD[COHORT v5.4]
+    A[VISIT_OCCURRENCE] -->|Renamed| B[Admitting_source_concept_id to Admitted_from_concept_id]
+    A -->|Renamed| C[Admitting_source_value to Admitted_from_source_value]
+    A -->|Renamed| D[Discharge_to_concept_id to Discharged_to_concept_id]
+    A -->|Renamed| E[Discharge_to_source_value to Discharged_to_source_value]
+
+    F[VISIT_DETAIL] -->|Renamed| G[Admitting_source_concept_id to Admitted_from_concept_id]
+    F -->|Renamed| H[Admitting_source_value to Admitted_from_source_value]
+    F -->|Renamed| I[Discharge_to_concept_id to Discharged_to_concept_id]
+    F -->|Renamed| J[Discharge_to_source_value to Discharged_to_source_value]
+    F -->|Renamed| K[Visit_detail_parent_id to Parent_visit_detail_id]
+
+    L[PROCEDURE_OCCURRENCE] -->|Added| M[Procedure_end_date]
+    L -->|Added| N[Procedure_end_datetime]
+
+    O[DEVICE_EXPOSURE] -->|Changed type| P[Unique_device_id to varchar(255)]
+    O -->|Added| Q[Production_id]
+    O -->|Added| R[Unit_concept_id]
+    O -->|Added| S[Unit_source_value]
+    O -->|Added| T[Unit_source_concept_id]
+
+    U[MEASUREMENT] -->|Added| V[Unit_source_concept_id]
+    U -->|Added| W[Measurement_event_id]
+    U -->|Added| X[Meas_event_field_concept_id]
+
+    Y[OBSERVATION] -->|Added| Z[Value_source_value]
+    Y -->|Added| AA[Observation_event_id]
+    Y -->|Added| AB[Obs_event_field_concept_id]
+
+    AC[NOTE] -->|Added| AD[Note_event_id]
+    AC -->|Added| AE[Note_event_field_concept_id]
+
+    AF[LOCATION] -->|Added| AG[Country_concept_id]
+    AF -->|Added| AH[Country_source_value]
+    AF -->|Added| AI[Latitude]
+    AF -->|Added| AJ[Longitude]
+
+    AK[EPISODE] -.-> AL[New Table]
+
+    AM[METADATA] -->|Added| AN[Metadata_id]
+    AM -->|Added| AO[Value_as_number]
+
+    AP[CDM_SOURCE] -->|Mandatory| AQ[Cdm_source_name]
+    AP -->|Mandatory| AR[Cdm_source_abbreviation]
+    AP -->|Mandatory| AS[Cdm_holder]
+    AP -->|Mandatory| AT[Source_release_date]
+    AP -->|Mandatory| AU[Cdm_release_date]
+    AP -->|Added| AV[Cdm_version_concept_id]
+
+    AW[VOCABULARY] -->|Non-mandatory| AX[Vocabulary_reference]
+    AW -->|Non-mandatory| AY[Vocabulary_version]
+
+    AZ[COHORT] -.-> BA[New Table]
+
+    BB[ATTRIBUTE_DEFINITION] -.-> BC[Removed]
+
+    BD[Tables with no change] -.-> BE[PERSON, OBSERVATION_PERIOD, CONDITION_OCCURRENCE, DRUG_EXPOSURE, DEATH, NOTE_NLP, SPECIMEN, FACT_RELATIONSHIP, CARE_SITE, PAYER_PLAN_PERIOD, COST, DRUG_ERA, DOSE_ERA, CONDITION_ERA, CONCEPT, DOMAIN, CONCEPT_CLASS, CONCEPT_RELATIONSHIP, RELATIONSHIP, CONCEPT_SYNONYM, CONCEPT_ANCESTOR, SOURCE_TO_CONCEPT_MAP, DRUG_STRENGTH]
 '''
 
 
