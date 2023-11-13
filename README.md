@@ -29,6 +29,8 @@ Incremental loading in the context of OHDSI refers to the process of adding new 
 
 For instance, in the development of an ETL (Extract, Transform, Load) process for the bulk and incremental load of German patient data into the OMOP CDM using FHIR as referenced by OHDSI, it suggests that the incremental loading is an essential part of keeping the database up-to-date in an efficient manner​. [OHDSI Symposium Showcase #44](https://ohdsi.org/2021-global-symposium-showcase-44/#:~:text=,Reinecke%2C%20Michele%20Zoch%2C%20Martin%20Sedlmayr)
 
+This group alos described a [Near Real-Time Incremental OMOP-CDM ETL System](https://www.ohdsi.org/wp-content/uploads/2021/09/14-abstract-lee.pdf)
+
 This is also described by Dr. DuWayne Willett, CMIO of UTSW, at around minute 30 of this video:
 
 [![OHDSI Symposium Presentation](http://img.youtube.com/vi/DPatSxFkIpI/0.jpg)](https://www.youtube.com/watch?v=DPatSxFkIpI "OHDSI Symposium Presentation by Dr. DuWayne Willett")
