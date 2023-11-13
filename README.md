@@ -157,23 +157,6 @@ graph LR
 
   <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
-
-# Differences between OMOP CDM 5.3 and 5.4
-
-| Table              | Change from v5.3 to v5.4                                        |
-|--------------------|-----------------------------------------------------------------|
-| PERSON             | No change                                                       |
-| OBSERVATION_PERIOD | No change                                                       |
-| VISIT_OCCURRENCE   | Admitting_source_concept_id -> Admitted_from_concept_id         |
-|                    | Admitting_source_value -> Admitted_from_source_value            |
-|                    | Discharge_to_concept_id -> Discharged_to_concept_id             |
-|                    | Discharge_to_source_value -> Discharged_to_source_value         |
-| VISIT_DETAIL       | Admitting_source_concept_id -> Admitted_from_concept_id         |
-|                    | Admitting_source_value -> Admitted_from_source_value            |
-|                    | Discharge_to_concept_id -> Discharged_to_concept_id             |
-|                    | Discharge_to_source_value -> Discharged_to_source_value         |
-|                    | Visit_detail_parent_id -> Parent_visit_detail_id                |
-
 # OHDSI Analysis Tools
 R, SQL, Python, or any preferred data analysis software. Examples provided below are for R and SQL.
 [The Book of OHDSI Chapter 9] (https://ohdsi.github.io/TheBookOfOhdsi/SqlAndR.html) provides an overview of analysis of OHDSI data in R and SQL; note that you will not be able to avail yourselves of OHDSI software tools when analyzing your exported data for the reason explained above.
