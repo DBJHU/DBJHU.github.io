@@ -1,15 +1,38 @@
-<h1>Welcome to my training material test lab!</h1>
+<h1>Welcome to my training material test lab and Markdown "sampler"! </h1>
+
+### Where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!
+
+# Table of Contents
+- [OMOP CDM Basic Data Dictionary](#omop-cdm-basic-data-dictionary)
+- [Projects Best Suited for Observational Research and OHDSI Network Studies](#projects-best-suited-for-observational-research-and-ohdsi-network-studies)
+- [Analytic Use Cases and Examples](#analytic-use-cases-and-examples)
+- [Incremental Loading](#incremental-loading)
+- [The Collaboration Process](#the-collaboration-process)
+- [Current CDM](#current-cdm)
+- [Commonly Used CDM Tables Overview](#commonly-used-cdm-tables-overview)
+- [OHDSI Analysis Tools](#ohdsi-analysis-tools)
+- [Data Science Handbook](#data-science-handbook)
+- [Jupyter Notebooks and programming](#jupyter-notebooks-and-programming)
+- [Recommended Trainings](#recommended-trainings)
+- [Python, SQL, and R Programming Resources](#python-sql-and-r-programming-resources)
+- [Analysis with SQL](#analysis-with-sql)
+- [Analysis with R](#analysis-with-r)
 
 
+# OMOP CDM Basic Data Dictionary 
 For a sample interactive OMOP data dictionary, please click on the image below:
 [![OMOP Data Dictionary Thumbnail](https://dbjhu.github.io/DDthumbnail.png)](https://dbjhu.github.io/OMOPDD.html)
-
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
 # Projects Best Suited for Observational Research and OHDSI Network Studies
 ![Source:  https://www.ohdsi.org/wp-content/uploads/2023/01/SOS-challenge-intro-24jan2023.pdf](AnalyticUseCases.png) 
 
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
+
 # (This is the exact same table as in the image above only in Markdown)
+
 ## Analytic Use Cases and Examples
+
 | Analytic use case                     | Type                        | Structure                                                                                                               | Example                                                                                                                   |
 |---------------------------------------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | **Clinical characterization**         | Disease Natural History     | Amongst patients who are diagnosed with `<insert your favorite disease>`, what are the patient’s characteristics from their medical history? | Amongst patients with rheumatoid arthritis, what are their demographics (age, gender), prior conditions, medications, and health service utilization behaviors? |
@@ -21,7 +44,12 @@ For a sample interactive OMOP data dictionary, please click on the image below:
 |                                       | Treatment response           | For a given patient who is a new user of `<insert your favorite chronically-used drug>`, what is the probability that they will `<insert desired effect>` in `<time window>`? | For a given patient with T2DM who start on metformin, what is the probability that they will maintain HbA1C <6.5% after 3 years? |
 |                                       | Treatment safety             | For a given patient who is a new user of `<insert your favorite drug>`, what is the probability that they will experience `<insert adverse event>` within `<time horizon following exposure>`? | For a given patient who is a new user of warfarin, what is the probability that they will have GI bleed in 1 year? |
 
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
+## Important Paper About Implementation of the OMOP CDM!
+[Erica A Voss, Clair Blacketer, Sebastiaan van Sandijk, Maxim Moinat, Michael Kallfelz, Michel van Speybroeck, Daniel Prieto-Alhambra, Martijn J Schuemie, Peter R Rijnbeek, European Health Data & Evidence Network—learnings from building out a standardized international health data network, Journal of the American Medical Informatics Association, 2023;, ocad214](https://doi.org/10.1093/jamia/ocad214)
+
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
 ## Incremental Loading
 
@@ -37,6 +65,7 @@ This is also described by Dr. DuWayne Willett, CMIO of UTSW, at around minute 30
 
 ...and in this OHDSI symposium presentation: ![OHDSI Symposium Presentation](https://www.ohdsi.org/wp-content/uploads/2023/10/10-Willett-Poster.png).
 
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
 
 ## The Collaboration Process 
@@ -67,6 +96,7 @@ flowchart TD
     J -.->|If modifications needed| G
     J -->|If complete| K
 ```
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
 # 
 ## Current CDM
@@ -74,8 +104,12 @@ flowchart TD
 
 *Source: [OHDSI Common Data Model](https://ohdsi.github.io/CommonDataModel/index.html)*
 
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
+
 
 [Interactive (Select) OMOP Data Dictionary](https://github.com/DBJHU/DBJHU.github.io/blob/main/SelectOMOPDataDictionaryInteractivev2.html)
+
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
 # Commonly Used CDM Tables Overview
 The OMOP common data model (CDM) is a relational database made up of different tables that relate to each other by foreign keys (XXXX_ID values; e.g., PERSON_ID or PROVIDER_ID). The OMOP tables in your data export are as follows:
@@ -92,12 +126,15 @@ The OMOP common data model (CDM) is a relational database made up of different t
 | Device_exposure    | Captures information about a person's exposure to a foreign physical object or instrument which is used for diagnostic or therapeutic purposes. Devices include implantable objects, blood transfusions, medical equipment and supplies, other instruments used in medical procedures, and material used in clinical care. |
 | Death              | Contains the clinical events surrounding how and when a participant dies. |
 
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
 ```mermaid
 graph LR
     ICD9("ICD9") -->|Transformation to OMOP CDM| SNOMED("STANDARD<br>Vocabulary Concept Code<br>SNOMED")
     ICD10("ICD10") -->|Transformation to OMOP CDM| SNOMED
 ```
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
+
 
 | Domain                    | Source Vocabulary              | Standard Vocabulary       |
 |---------------------------|--------------------------------|---------------------------|
@@ -112,15 +149,48 @@ graph LR
 * NDC = National Drug Code
 * CPT = Current Procedural Terminology
 
-# Analysis Tools
+  <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
+
+
+# OHDSI Analysis Tools
 R, SQL, Python, or any preferred data analysis software. Examples provided below are for R and SQL.
 [The Book of OHDSI Chapter 9] (https://ohdsi.github.io/TheBookOfOhdsi/SqlAndR.html) provides an overview of analysis of OHDSI data in R and SQL; note that you will not be able to avail yourselves of OHDSI software tools when analyzing your exported data for the reason explained above.
-<
-## Jupyter Notebooks and programming
-[Source:NIH All of US Study] (https://support.researchallofus.org/hc/en-us/articles/360039690191-Jupyter-Notebooks-and-programming)
 
-Below you will find links to  helpful resources on using Jupyter Notebooks. 
-Below you will find links to some of the most helpful resources that we have created and/or found on using Jupyter Notebooks. While we can’t teach you how to program, we have identified some online resources that can help get you started.
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
+
+## Data Science Handbook
+[Open, rigorous and reproducible research: A practitioner’s handbook](https://datascience.stanford.edu/programs/stanford-data-science-scholars-program/data-science-handbook) 
+From Standord Data Science
+
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
+
+## Programming Resources:  Jupyter Notebooks, Python, SQL, and R Programming Resources
+
+- [Project Jupyter](https://jupyter.org/)
+- [What is the Jupyter Notebook?](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
+- [NIAID NIH Informatics resources](https://bioinformatics.niaid.nih.gov/resources)
+
+Software Carpentry is a website that provides free online lessons to researchers wanting to enhance their programming skills for data analysis. This website offers free online lessons on a variety of useful topics including:
+
+- [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
+- [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)
+- [Databases and SQL](http://swcarpentry.github.io/sql-novice-survey/)
+
+Additional resources:
+
+- [DataCamp](http://www.datacamp.com/)
+- [Khan Academy](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
+- [Codecademy - Learn Python 2](https://www.codecademy.com/learn/learn-python)
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [R for Data Science](https://r4ds.had.co.nz/)
+- [Introduction to Programming (NIAID, NIH)](https://bioinformatics.niaid.nih.gov/resources - 70.3.1)
+- [Python Programming (NIAID, NIH)](https://bioinformatics.niaid.nih.gov/resources - 70.3.2)
+- [Data Analysis with Python and Pandas (NIAID, NIH)](https://bioinformatics.niaid.nih.gov/resources - 70.3.3)
+- [Data Visualization with Python (NIAID, NIH)](https://bioinformatics.niaid.nih.gov/resources - 70.3.4)
+- [Source:NIH All of US Study](https://support.researchallofus.org/hc/en-us/articles/360039690191-Jupyter-Notebooks-and-programming)
+
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
+
 ### OHDSI Resources
 Hello! Please familiarize yourself with the following tools and resources which will help you throughout this course and your OHDSI journey.
 
@@ -162,6 +232,8 @@ Look up individual concepts in [Athena](https://athena.ohdsi.org/)
 
 Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documentation](https://support.researchallofus.org/hc/en-us/articles/360039585391-How-the-Observational-Medical-Outcomes-Partnership-OMOP-vocabulary-are-structured)
 
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
+
 # Recommended Trainings
 ## OHDSI Community
   **Broadsea3.0**  
@@ -169,6 +241,7 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
  [![Broadsea 3.0](https://img.youtube.com/vi/CNlsZzY7VrM/0.jpg)](https://youtu.be/CNlsZzY7VrM)
 
 
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
 ## Tufts Bridge2AI Standards Module
 - **June 15, 2023:**  
@@ -247,32 +320,9 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
   [![Usagi & STCM Demo](https://img.youtube.com/vi/hNhph-elrp4/0.jpg)](https://youtu.be/hNhph-elrp4)
 
 
-## Python, SQL, and R Programming Resources
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
-- [Project Jupyter](https://jupyter.org/)
-- [What is the Jupyter Notebook?](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
-- [NIAID NIH Informatics resources](https://bioinformatics.niaid.nih.gov/resources)
-
-Software Carpentry is a website that provides free online lessons to researchers wanting to enhance their programming skills for data analysis. This website offers free online lessons on a variety of useful topics including:
-
-- [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
-- [Programming with R](http://swcarpentry.github.io/r-novice-inflammation/)
-- [Databases and SQL](http://swcarpentry.github.io/sql-novice-survey/)
-
-We have included additional resources for help with programming below.
-
-- [DataCamp](http://www.datacamp.com/)
-- [Khan Academy](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
-- [Codecademy - Learn Python 2](https://www.codecademy.com/learn/learn-python)
-- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
-- [R for Data Science](https://r4ds.had.co.nz/)
-- [Introduction to Programming (NIAID, NIH)](https://bioinformatics.niaid.nih.gov/resources - 70.3.1)
-- [Python Programming (NIAID, NIH)](https://bioinformatics.niaid.nih.gov/resources - 70.3.2)
-- [Data Analysis with Python and Pandas (NIAID, NIH)](https://bioinformatics.niaid.nih.gov/resources - 70.3.3)
-- [Data Visualization with Python (NIAID, NIH)](https://bioinformatics.niaid.nih.gov/resources - 70.3.4)
-
-
-## Analysis with SQL
+## Analysis with SQL (OHDSI/OMOP)
 
 The [OMOP Query Library](https://data.ohdsi.org/QueryLibrary/) is a library of commonly-used SQL queries for the OMOP Common Data Model (CDM).
 
@@ -344,6 +394,7 @@ filtered_by_date_df <- subset(full_df, visit_start_date >= start_date & visit_st
 To execute the Python queries, you'll need to install the pandas library. -->
 
 
+<div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 <!--- WIP 
 
 # OMOP ETL Process: Common Problems and Solutions
