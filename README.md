@@ -57,6 +57,71 @@ For a sample interactive OMOP data dictionary, please click on the image below:
 # Standardized vocabularies
 [Dr. Rachel Richesson presents “Learning to Use EHR Data in Learning Health Systems](https://youtu.be/4uXqNLsiVuc?feature=shared)
 
+## Overview of Major Clinical Terminologies and Coding Systems
+
+This document provides a detailed overview of several essential clinical terminologies and coding systems used in healthcare. Each system has a specific role and is crucial for standardized communication in healthcare settings. The information includes development history, usage, and updates of these systems.
+
+For more in-depth information, links to the respective official websites are provided.
+
+### SNOMED Clinical Terms (SNOMED CT)
+- **Development:** Originally by the College of American Pathologists, now under SNOMED International.
+- **Adoption:** Used in over 50 countries.
+- **Concepts:** Over 340,000 active concepts in 19 hierarchies.
+- **Usage:** Encodes clinical information including diseases, findings, and procedures.
+- **Updates:** Biannual, with more frequent updates planned.
+- **More Information:** [SNOMED International](https://www.snomed.org/snomed-ct)
+
+### Logical Observation Identifiers Names and Codes (LOINC)
+- **Developer:** Regenstrief Institute.
+- **Function:** Identifiers for laboratory and clinical observations.
+- **Content:** Over 90,000 terms.
+- **Collaboration:** With SNOMED CT for coded content development.
+- **Updates:** Biannual.
+- **More Information:** [LOINC from Regenstrief](https://loinc.org)
+
+### RxNorm
+- **Developer:** National Library of Medicine (NLM).
+- **Function:** Standard nomenclature for medications.
+- **Integration:** Links to various drug vocabularies.
+- **Access:** Requires UMLS user license for proprietary content.
+- **More Information:** [RxNorm - NLM](https://www.nlm.nih.gov/research/umls/rxnorm)
+
+### International Classification of Disease (ICD)
+- **Endorsement:** World Health Organization (WHO).
+- **Versions:** ICD-10 widely used with national extensions; ICD-11 adopted for future use.
+- **Purpose:** Epidemiology, health management, clinical purposes.
+- **Updates:** Annual, freely available.
+- **More Information:** [WHO ICD](https://www.who.int/classifications/icd)
+
+### Current Procedural Terminology (CPT)
+- **Developer:** American Medical Association (AMA).
+- **Use:** Encoding of medical services and procedures in the USA.
+- **Categories:** Three categories of codes.
+- **Requirement:** License from AMA for use.
+- **More Information:** [CPT - AMA](https://www.ama-assn.org/practice-management/cpt)
+
+### Human Phenotype Ontology (HPO)
+- **Function:** Bioinformatic resources for human diseases and phenotypes analysis.
+- **Components:** Phenotype vocabulary, disease-phenotype annotations, algorithms.
+- **Applications:** Genomic interpretation, gene-disease discovery, precision medicine.
+- **Content:** Over 13,000 terms in 5 hierarchies.
+- **Availability:** Freely available, multiple releases per year.
+- **More Information:** [Human Phenotype Ontology](https://hpo.jax.org)
+
+### Unified Medical Language System (UMLS)
+- **Initiation:** By the US National Library of Medicine in 1986.
+- **Goal:** To aid in the retrieval and integration of electronic biomedical information.
+- **Challenge Addressed:** Different vocabularies expressing the same information differently.
+- **Availability:** Free, but requires a license due to additional licensing requirements of some contents.
+- **More Information:** [UMLS - NLM](https://www.nlm.nih.gov/research/umls)
+
+### Ontology Mapping in BioPortal Applications
+- **Process:** Finding the closest match of a code from one ontology in another.
+- **Matching:** Exact equivalence is rare; approximate matching is common.
+- **Challenges:** Labor-intensive and requires understanding the maps' nature and limitations.
+- **Alternative Approach:** Mapping multiple ontologies to a central core terminology, as used by the OHDSI consortium.
+- **More Information:** [BioPortal](https://bioportal.bioontology.org)
+
 ## Incremental Loading
 
 Incremental loading in the context of OHDSI refers to the process of adding new or updated data to an existing OHDSI database without the need to completely rebuild or refresh the entire dataset. This can be particularly useful for large datasets where full loads can be time-consuming and inefficient. The process involves extracting only the changes since the last load and then transforming and loading this delta of data into the existing OMOP Common Data Model (CDM) used by OHDSI tools.
