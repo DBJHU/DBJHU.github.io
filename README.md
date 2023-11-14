@@ -10,7 +10,7 @@
 - [Analytic Use Cases and Examples](#analytic-use-cases-and-examples)
 - [Incremental Loading](#incremental-loading)
 - [The Collaboration Process](#the-collaboration-process)
-- [Stabdardized Vocabularies](#Standardized-Vocabularies)
+- [Data Content Ontology](#Data-Content-Ontology)
 - [Current CDM](#current-cdm)
 - [Commonly Used CDM Tables Overview](#commonly-used-cdm-tables-overview)
 - [OHDSI Analysis Tools](#ohdsi-analysis-tools)
@@ -54,7 +54,7 @@ For a sample interactive OMOP data dictionary, please click on the image below:
 
 <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
-# Standardized vocabularies
+# Data Content Ontology
 ![Dr. Rachel Richesson presents "Learning to Use EHR Data in Learning Health Systems"](https://img.youtube.com/vi/4uXqNLsiVuc/maxresdefault.jpg)
 
 ## Overview of Major Clinical Terminologies and Coding Systems
