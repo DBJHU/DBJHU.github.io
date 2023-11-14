@@ -77,7 +77,7 @@ For more in-depth information, links to the respective official websites are pro
 - **Content:** Over 90,000 terms.
 - **Collaboration:** With SNOMED CT for coded content development.
 - **Updates:** Biannual.
-- **More Information:** [LOINC from Regenstrief](https://loinc.org)
+- **More Information:** [LOINC](https://loinc.org)
 
 ### RxNorm
 - **Developer:** National Library of Medicine (NLM).
