@@ -310,6 +310,13 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
 
 <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
+# Special Topic:  Cinical Registries Using OHDSI
+
+[![OHDSI and Clinical Registries: Sanity for Health Systems (Aug. 22 Community Call)](http://img.youtube.com/vi/DPatSxFkIpI/0.jpg)](https://youtu.be/DPatSxFkIpI?si=VOqE4VTlzIcxuWdP)
+
+[Clinical Registries in OHDSI - September 2022](https://www.ohdsi.org/wp-content/uploads/2022/09/OHDSI-Clinical_Registries.pdf)
+
+
 # Recommended Trainings
 ## OHDSI Community
   **Broadsea3.0**  
