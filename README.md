@@ -10,7 +10,7 @@
 - [Analytic Use Cases and Examples](#analytic-use-cases-and-examples)
 - [Incremental Loading](#incremental-loading)
 - [The Collaboration Process](#the-collaboration-process)
-- [Overview of Major Clinical Terminologies and Coding Systems](#Overview-of-Major-Clinical-Terminologies-and-Coding-Systems)
+- [Stabdardized Vocabularies](#Standardized-Vocabularies)
 - [Current CDM](#current-cdm)
 - [Commonly Used CDM Tables Overview](#commonly-used-cdm-tables-overview)
 - [OHDSI Analysis Tools](#ohdsi-analysis-tools)
