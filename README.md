@@ -1,4 +1,3 @@
-Test test test
 
 <h1>Welcome to my training material test lab and Markdown "sampler"! </h1>
 
