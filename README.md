@@ -171,7 +171,7 @@ This is also described by Dr. DuWayne Willett, CMIO of UTSW, at around minute 30
 
 ```mermaid
 flowchart TD
-    A[PersonA receives a research request]
+    A[Person A receives a research request]
     B[Person/group B sets up a meeting]
     C[Iterative biomedical query mediation process begins]
     D[Project outline is created and signed off by all parties]
