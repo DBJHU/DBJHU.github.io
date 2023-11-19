@@ -21,7 +21,7 @@
 - [Python, SQL, and R Programming Resources](#python-sql-and-r-programming-resources)
 - [Analysis with SQL](#analysis-with-sql)
 - [Analysis with R](#analysis-with-r)
-
+- [Diversity, Equity, and Inclusion Resources](#diversity-equity-and-inclusion-resources)
 
 # OMOP CDM Basic Data Dictionary 
 For a sample interactive OMOP data dictionary, please click on the image below:
@@ -405,6 +405,28 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
 
 
 <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
+
+# Diversity, Equity, and Inclusion Resources
+
+- [How racial biases in medical algorithms lead to inequities in care | PBS News Weekend](https://www.pbs.org/newshour/show/how-racial-biases-in-medical-algorithms-lead-to-inequities-in-care)
+- [AI Reveals its Biases by Generating What it Thinks Professors Look Like | PetaPixel](https://petapixel.com/2023/05/04/ai-reveals-its-biases-by-generating-what-it-thinks-professors-look-like/)
+- [Does “AI” stand for augmenting inequality in the era of covid-19 healthcare? | The BMJ](https://www.bmj.com/content/372/bmj.n304)
+- [The AUC Data Science | Initiative (aucenter.edu)](https://datascience.aucenter.edu/)
+- [ReCode-Report.pdf (data.org)](https://datascience.aucenter.edu/)
+- [ADDI Researcher Roundtable: The Importance of Diversity in Dementia Research on Vimeo](https://vimeo.com/799212327?forcedownload=true&_=4007b451dfc8424fa5226c4615e147ea)
+- [Advancing Antiracism, Diversity, Equity, and Inclusion in STEMM Organizations: Beyond Broadening Participation |The National Academies Press](https://nap.nationalacademies.org/catalog/26803/advancing-antiracism-diversity-equity-and-inclusion-in-stemm-organizations-beyond)
+- [Data Literacy: The Composition Effect | Education | St. Louis Fed (stlouisfed.org)](https://www.stlouisfed.org/education/the-composition-effect)
+- [A lecture by Pilar Ossorio at MLHC Professor of Law and Bioethics at the University of Wisconsin Law School](https://www.youtube.com/watch?v=DzGSlWu4Lj0&list=PLRqwW7v078fYdZFpf43d0NBh4hiGCRtfV&index=6)
+- [This paper by Dunkelau and Leuschel that summarizes Fairness-aware Machine Learning](https://www.phil-fak.uni-duesseldorf.de/fileadmin/Redaktion/Institute/Sozialwissenschaften/Kommunikations-_und_Medienwissenschaft/KMW_I/Working_Paper/Dunkelau___Leuschel__2019__Fairness-Aware_Machine_Learning.pdf)
+- [A conversation with Cathy O’Neil, author of the critically acclaimed Weapons of Math Destruction - YouTube](https://www.youtube.com/watch?v=1QlIbed_Hwg)
+- [Nicole G. Weiskopf (NYU) and Carolyn Thompson (UCSD) – Bias in EHR - YouTube](https://youtu.be/8V-yO7GNNlw?feature=shared)
+- [This Obermeyer et al paper on dissecting racial bias in an algorithm used to manage the health of populations - Science, 2019](https://science.sciencemag.org/content/366/6464/447)
+- [Fair ML Keynote talk + Microsoft talk + slides - Science, 2019](https://science.sciencemag.org/content/366/6464/447)
+- [Maria Hightower, M.D., M.B.A., MPH Chief Digital Technology officer of the University of Chicago Medicine comments on the racial bias in AI and the algorithm described above - Science, 2019](https://science.sciencemag.org/content/366/6464/447)
+- [How scientists are subtracting race from medical risk calculators - Science, 2021](https://science.sciencemag.org/content/366/6464/447)
+- [This paper summarizes how being aware of a protected class can lead to differences in fairness outcomes - Science](https://science.sciencemag.org/content/366/6464/447)
+- [Race After Technology, by Ruha Benjamin [Professor of African American studies at Princeton University], summarizes how technology [from data collection, data imputation, government policy, etc] can play a role in different outcomes in society - Science](https://science.sciencemag.org/content/366/6464/447)
+
 
 ## Analysis with SQL (OHDSI/OMOP)
 
