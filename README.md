@@ -14,6 +14,7 @@
 - [Data Content Ontology](#Data-Content-Ontology)
 - [Current CDM](#current-cdm)
 - [Commonly Used CDM Tables Overview](#commonly-used-cdm-tables-overview)
+- [ETL Basics](#ETL-Basics)
 - [OHDSI Analysis Tools](#ohdsi-analysis-tools)
 - [Data Science Handbook](#data-science-handbook)
 - [Jupyter Notebooks and programming](#jupyter-notebooks-and-programming)
@@ -228,6 +229,77 @@ The OMOP common data model (CDM) is a relational database made up of different t
 
 <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
+# ETL Basis
+https://www.ohdsi.org/wp-content/uploads/2019/09/OMOP-Common-Data-Model-Extract-Transform-Load.pdf
+https://ohdsi.github.io/TheBookOfOhdsi/ExtractTransformLoad.html
+
+## ETL STEPS 
+1. **Dataset profiling and documentation**
+    - Create data model documentation, sample data, data dictionaries, code lists, and other relevant information (23-Aug)
+    - Execute database profiling scan (WhiteRabbit) on source database
+    - Prepare mapping approach/documents based on scan reports from database profiling scan
+
+2. **Generation of the ETL Design**
+    - Mapping workshop with all relevant parties to:
+        1. Understand the source
+        2. Define the scope of source data to be transformed
+        3. Define acceptance criteria for OMOP output
+        - Output: draft mapping document
+    - Finalize mapping document:
+        - Integrate all notes/documentation from workshop
+        - Work through mappings and verify, update, fill in gaps
+        - Meetings/emails with data contact/technical contact (TC) as needed
+
+3. **Source Data Integrations and Semantic Mapping**
+    - Source Code mapping:
+        - Identify which codes are already mapped to standard vocabulary
+        - Identify code types for codes that need to be mapped
+        - Translation of code description/phrases to English, if/as needed
+        - Create proposed code mappings
+    - Generate mappings for data coming out of flowsheets (together with consortium)
+    - Review/approval of code mappings, often done by medical experts affiliated with Data Owner (DO). SSSOM is relevant, possibly also Perseus.
+    - Identify medical imaging available and define mappings to Imaging Extension
+    - Identify waveform data available and map using consortium-defined guidelines
+    - Use OHNLP to extract OMOP data from unstructured sources
+
+4. **Technical architecture design**
+    - Continuous Integration, Continuous Deployment (CI/CD):
+        - Decide on ETL dev/deployment flow
+        - Put version control mechanisms in place
+    - OHDSI Ecosystem:
+        - Evaluate infrastructure needed
+        - Create infrastructure design documentation
+
+5. **Technical ETL Development**
+    - Implement ETL (Preferred Language/Structure?)
+    - Update ETL based on testing/QA/feedback (8, 9)
+
+6. **Setting up of Infrastructure**
+    - Deploy core servers and associated services based on infrastructure design in (4)
+
+7. **Installation of the OHDSI tools**
+    - Install and configure all software (database server, Achilles/DQD/Ares, Atlas/WebAPI, R Studio server, HADES, notebooks/tooling related to analytics, and any other software to suit a site’s specific needs).
+
+8. **ETL Testing and Validation**
+    - ETL Execution:
+        - Test ETL using sample/development data (with limited external data access)
+        - Test ETL using DO data (with full external data access)
+        - Verify and document QA
+        - Submit Achilles/DQD/AresIndexer results to central location regularly
+    - ETL Development Planning and Management:
+        - Review ETL testing and progress (TCs/meetings)
+
+9. **Data Quality Assessment**
+    - QA/Acceptance testing:
+        - Evaluate accuracy and completeness of mapping
+        - Review and approval by DO
+
+10. **Documentation**
+    - Mapping Documentation and Themis Checks
+    - Transformation/Technical Documentation
+
+11. **Project Management Througout**
+    - Organization of tasks, milestones, and follow-up
 
 # OHDSI Analysis Tools
 R, SQL, Python, or any preferred data analysis software. Examples provided below are for R and SQL.
