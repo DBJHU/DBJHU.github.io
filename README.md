@@ -259,7 +259,7 @@ https://ohdsi.github.io/TheBookOfOhdsi/ExtractTransformLoad.html
         - Translation of code description/phrases to English, if/as needed
         - Create proposed code mappings
     - Generate mappings for data coming out of flowsheets (together with consortium)
-    - Review/approval of code mappings, often done by medical experts affiliated with Data Owner (DO). SSSOM is relevant, possibly also Perseus.
+    - Review/approval of code mappings, often done by medical experts affiliated with Data Owner (DO). 
     - Identify medical imaging available and define mappings to Imaging Extension
     - Identify waveform data available and map using consortium-defined guidelines
     - Use OHNLP to extract OMOP data from unstructured sources
@@ -391,6 +391,21 @@ Check out useful OHDSI-related documentation here: [NIH ALL of US OMOP Documenta
 
 [Clinical Registries in OHDSI - September 2022](https://www.ohdsi.org/wp-content/uploads/2022/09/OHDSI-Clinical_Registries.pdf)
 
+# Special topic: SSSOM
+
+https://www.ohdsi.org/wp-content/uploads/2023/10/Talapova-Polina_Mapping_of_Critical_Care_EHR_Flowsheet_data_to_the_OMOP_CDM_via_SSSOM_2023symposium-Polina-Talapova.pdf
+
+Matentzoglu N, Balhoff JP, Bello SM, Bizon C, BrushM, Callahan TJ et al. A Simple Standard
+for Sharing Ontological Mappings (SSSOM). Database. 2022. 2022:baac035, DOI:
+10.1093/database/baac035.
+
+Mapping Commons. SSSOM: Simple Standard for Sharing Ontological Mappings. Wiki [Internet].
+Available from: https://mapping-commons.github.io/sssom/about.
+
+Mapping Commons. SSSOM: Simple Standard for Sharing Ontological Mappings. GitHub
+[Internet]. Available from: https://github.com/mapping-commons/sssom.
+
+https://www.w3.org/2004/02/skos/
 
 # Recommended Trainings
 ## OHDSI Community
