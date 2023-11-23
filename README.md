@@ -13,7 +13,7 @@ graph LR
     C --> I[Data Cleaning and Standardization]
     C --> J[Topic Modeling with BERTopic]
     C --> K[Identification of Top 10 Clusters]
-    ```mermaid
+```mermaid
 
 ### Where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!
 
