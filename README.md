@@ -1,7 +1,7 @@
 
 <h1>Welcome to my training material test lab and Markdown "sampler"! </h1>
 
-```mermaidmermaid
+```mermaid
 graph LR
     A[Open-ended Dataset from ALS Patients Survey] --> B[Qualitative Analysis]
     A --> C[Artificial Intelligence Analysis]
@@ -13,7 +13,9 @@ graph LR
     C --> I[Data Cleaning and Standardization]
     C --> J[Topic Modeling with BERTopic]
     C --> K[Identification of Top 10 Clusters]
-```mermaid
+```
+
+ 
 
 ### Where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!
 
