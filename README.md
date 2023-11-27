@@ -1,22 +1,6 @@
 <!---
 <h1>Welcome to my training material test lab and Markdown "sampler"! </h1>
 
-```mermaid
-graph LR
-    A[Open-ended Dataset from ALS Patients Survey] --> B[Qualitative Analysis]
-    A --> C[Artificial Intelligence Analysis]
-    B --> D[Grounded Theory]
-    B --> E[Manual Coding]
-    B --> F[Dictionary-based Named Entity Recognition]
-    B --> G[Thematic Clustering]
-    B --> H[Modified Member Checking]
-    C --> I[Data Cleaning and Standardization]
-    C --> J[Topic Modeling with BERTopic]
-    C --> K[Identification of Top 10 Clusters]
-```
---->
- 
-
 ### Where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!
 
 # Table of Contents
