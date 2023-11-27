@@ -228,6 +228,13 @@ The OMOP common data model (CDM) is a relational database made up of different t
 
 <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
+# OMOP Data Quality
+[The Book of OHDSI - Chapter 15: Data Quality](https://ohdsi.github.io/TheBookOfOhdsi/DataQuality.html)
+
+[Kahn MG, Callahan TJ, Barnard J, Bauck AE, Brown J, Davidson BN, Estiri H, Goerg C, Holve E, Johnson SG, Liaw ST, Hamilton-Lopez M, Meeker D, Ong TC, Ryan P, Shang N, Weiskopf NG, Weng C, Zozus MN, Schilling L. A Harmonized Data Quality Assessment Terminology and Framework for the Secondary Use of Electronic Health Record Data. EGEMS (Wash DC). 2016 Sep 11;4(1):1244. doi: 10.13063/2327-9214.1244. PMID: 27713905; PMCID: PMC5051581.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5051581/)
+
+
+
 # ETL Basics
 https://www.ohdsi.org/wp-content/uploads/2019/09/OMOP-Common-Data-Model-Extract-Transform-Load.pdf
 https://ohdsi.github.io/TheBookOfOhdsi/ExtractTransformLoad.html
