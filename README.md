@@ -1,4 +1,4 @@
-
+<!---
 <h1>Welcome to my training material test lab and Markdown "sampler"! </h1>
 
 ```mermaid
@@ -14,7 +14,7 @@ graph LR
     C --> J[Topic Modeling with BERTopic]
     C --> K[Identification of Top 10 Clusters]
 ```
-
+--->
  
 
 ### Where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!
