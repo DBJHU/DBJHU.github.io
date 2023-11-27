@@ -1,4 +1,4 @@
-<!---
+
 <h1>Welcome to my training material test lab and Markdown "sampler"! </h1>
 
 ### Where I share fabulous data science resources while teaching myself new ways to present information using Markdown!!
