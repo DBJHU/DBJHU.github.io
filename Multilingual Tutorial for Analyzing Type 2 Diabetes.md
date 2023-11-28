@@ -1,6 +1,6 @@
 # Tutorial for Analyzing Type 2 Diabetes First Occurrence in OMOP CDM Data
 
-This tutorial demonstrates how to create a flat file that consolidates information for each `person_id` based on the first occurrence of type 2 diabetes (standard concept ID 201826) using various data analysis tools: SQL, SAS, R, Stata, and SPSS.
+This tutorial demonstrates how to create a flat file that consolidates information for each `person_id` based on the first occurrence of type 2 diabetes (standard concept ID 201826) using various data analysis tools: SQL, SAS, R, Stata, SPSS, and Python.
 
 Remember to adjust file paths and variable specifics according to your dataset.
 
