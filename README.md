@@ -513,6 +513,7 @@ https://www.w3.org/2004/02/skos/
 - [Data Literacy: The Composition Effect | Education | St. Louis Fed (stlouisfed.org)](https://www.stlouisfed.org/education/the-composition-effect)
 - [A lecture by Pilar Ossorio at MLHC Professor of Law and Bioethics at the University of Wisconsin Law School](https://www.youtube.com/watch?v=DzGSlWu4Lj0&list=PLRqwW7v078fYdZFpf43d0NBh4hiGCRtfV&index=6)
 - [This paper by Dunkelau and Leuschel that summarizes Fairness-aware Machine Learning](https://www.phil-fak.uni-duesseldorf.de/fileadmin/Redaktion/Institute/Sozialwissenschaften/Kommunikations-_und_Medienwissenschaft/KMW_I/Working_Paper/Dunkelau___Leuschel__2019__Fairness-Aware_Machine_Learning.pdf)
+- [Paper by Gichoya et al about minimixing bias in AI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10546443/)
 - [A conversation with Cathy O’Neil, author of the critically acclaimed Weapons of Math Destruction - YouTube](https://www.youtube.com/watch?v=1QlIbed_Hwg)
 - [Nicole G. Weiskopf (NYU) and Carolyn Thompson (UCSD) – Bias in EHR - YouTube](https://youtu.be/8V-yO7GNNlw?feature=shared)
 - [This Obermeyer et al paper on dissecting racial bias in an algorithm used to manage the health of populations - Science, 2019](https://science.sciencemag.org/content/366/6464/447)
