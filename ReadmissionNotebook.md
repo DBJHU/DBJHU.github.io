@@ -1,19 +1,6 @@
 ```python
 pip install pytrials
 ```
-```
-Collecting pytrials
-  Downloading pytrials-0.3.0-py2.py3-none-any.whl (6.3 kB)
-Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from pytrials) (2.31.0)
-Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->pytrials) (3.3.2)
-Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->pytrials) (3.6)
-Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->pytrials) (2.0.7)
-Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests->pytrials) (2023.11.17)
-Installing collected packages: pytrials
-Successfully installed pytrials-0.3.0
-
-```
-
 
 
 ```python
