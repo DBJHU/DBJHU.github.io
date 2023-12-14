@@ -520,7 +520,6 @@ https://www.w3.org/2004/02/skos/
 - [Fair ML Keynote talk + Microsoft talk + slides - Science, 2019](https://science.sciencemag.org/content/366/6464/447)
 - [Maria Hightower, M.D., M.B.A., MPH Chief Digital Technology officer of the University of Chicago Medicine comments on the racial bias in AI and the algorithm described above - Science, 2019](https://science.sciencemag.org/content/366/6464/447)
 - [How scientists are subtracting race from medical risk calculators - Science, 2021](https://science.sciencemag.org/content/366/6464/447)
-- [This paper summarizes how being aware of a protected class can lead to differences in fairness outcomes - Science](https://science.sciencemag.org/content/366/6464/447)
 - [Race After Technology, by Ruha Benjamin [Professor of African American studies at Princeton University], summarizes how technology [from data collection, data imputation, government policy, etc] can play a role in different outcomes in society - Science](https://science.sciencemag.org/content/366/6464/447)
 
 
