@@ -126,6 +126,8 @@ For more in-depth information, links to the respective official websites are pro
 
     <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
+https://www.healthit.gov/isa/section-i-vocabularycode-setterminology-standards-and-implementation-specifications
+
 ## OMOP Domains by Source to Standard Vocabulary
 ```mermaid
 graph LR
