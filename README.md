@@ -8,6 +8,7 @@
 - [OMOP CDM Basic Data Dictionary](#omop-cdm-basic-data-dictionary)
 - [Projects Best Suited for Observational Research and OHDSI Network Studies](#projects-best-suited-for-observational-research-and-ohdsi-network-studies)
 - [Analytic Use Cases and Examples](#analytic-use-cases-and-examples)
+- [Data Management Tools and Resources(##Data-Management-Tools-and-resources)
 - [Incremental Loading](#incremental-loading)
 - [The Collaboration Process](#the-collaboration-process)
 - [Data Content Ontology](#Data-Content-Ontology)
@@ -321,8 +322,9 @@ From Standord Data Science
 
 <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
-## Data Management Tool
+## Data Management Tools and resources
 DMP Tool:  https://dmptool.org/ 
+https://sharing.nih.gov/data-management-and-sharing-policy/planning-and-budgeting-for-data-management-and-sharing/writing-a-data-management-and-sharing-plan#after
 
 
 ## Programming Resources:  Jupyter Notebooks, Python, SQL, and R Programming Resources
