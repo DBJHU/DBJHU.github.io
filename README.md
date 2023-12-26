@@ -321,6 +321,10 @@ From Standord Data Science
 
 <div style="text-align: right"><a href="#table-of-contents">Back to Table of Contents</a></div>
 
+## Data Management Tool
+DMP Tool:  https://dmptool.org/ 
+
+
 ## Programming Resources:  Jupyter Notebooks, Python, SQL, and R Programming Resources
 
 - [Project Jupyter](https://jupyter.org/)
