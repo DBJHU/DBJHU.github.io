@@ -23,6 +23,7 @@
 - [Analysis with SQL](#analysis-with-sql)
 - [Analysis with R](#analysis-with-r)
 - [Diversity, Equity, and Inclusion Resources](#diversity-equity-and-inclusion-resources)
+- [REDCAP training resources] (#redcap-training-resources)
 
 # OMOP CDM Basic Data Dictionary 
 For a sample interactive OMOP data dictionary, please click on the image below:
@@ -530,7 +531,176 @@ https://www.w3.org/2004/02/skos/
 - [How scientists are subtracting race from medical risk calculators - Science, 2021](https://science.sciencemag.org/content/366/6464/447)
 - [Race After Technology, by Ruha Benjamin [Professor of African American studies at Princeton University], summarizes how technology [from data collection, data imputation, government policy, etc] can play a role in different outcomes in society - Science](https://science.sciencemag.org/content/366/6464/447)
 
+# REdCAP Training Resouces
+## This is the main REDCap training page: [REDCap Resources](https://projectredcap.org/resources/)
+From University of Colorado, below are excellent REDCap resources: [University of Colorado REDCap Resources](https://cctsi.cuanschutz.edu/resources/informatics/redcap-resources)
 
+## Best Practices
+
+### Best Practices
+- [Background Information](https://redcap.ucdenver.edu/surveys/?s=RJ7DP8K9DL): Learn more about the background of REDCap at UC Denver, general policies for use, and some REDCap best practices (video)
+- [COMIRB Template](https://redcap.ucdenver.edu/surveys/?s=FMWPDEH7X3) (user guide)
+- [Best Practices](https://redcap.ucdenver.edu/surveys/?s=4JHTMJ3Y4P) (user guide)
+- [18 HIPAA Identifiers & PHI (University of Maryland)](https://redcap.ucdenver.edu/surveys/?s=F9YD7CE8RW) (user guide)
+
+## Project Setup
+
+### Project Setup
+- [Login and Project Creation](https://redcap.ucdenver.edu/surveys/?s=LYLJ7X3CYD): Learn how to log in to your REDCap account and create a new project (video)
+- [Project Setup Page](https://redcap.ucdenver.edu/surveys/?s=L4KD8LCP8W): Explore the project home, project setup, other functionality, and project revision pages. Learn how to customize the settings for your projects, set user rights, use data access groups, and move your project to Production (video)
+- [Online Designer](https://redcap.ucdenver.edu/surveys/?s=7FM7YD8Y9E): Learn about the basic steps in designing your project. Learn how to set up forms; create a new field; validate fields; code multiple choice questions; use yes/no and true/false fields; create slider fields; and how to use file upload fields, descriptive fields, and section headers (video)
+- [Online Designer - Advanced Features](https://redcap.ucdenver.edu/surveys/?s=9M3Y4F3NY7): Learn how to use advanced features in the Online Designer such as branching logic, calculated fields, matrices, piping, and the data dictionary. Review some best practices in form creation (video)
+- [Longitudinal Database](https://redcap.ucdenver.edu/surveys/?s=8D3C9L7PDE): Learn about the longitudinal data collection set up and how it varies from a standard or classic data collection instrument. Learn how to define events and assign forms to specific events, use the scheduling module, and advanced calendar features available only in longitudinal studies (video)
+- [Repeating Forms](https://redcap.ucdenver.edu/surveys/?s=6D3C7N4FEM): Learn how to use repeating forms and events (video)
+
+## Advanced Form Design
+
+### Advanced Project Design
+- [Action Tags](https://redcap.ucdenver.edu/surveys/?s=3YM7C9D4DE): Learn how to use the most popular and powerful action tags (video)
+- [Action Tags List](https://redcap.ucdenver.edu/surveys/?s=7D4C9M7NY3): List of all action tags with descriptions (user guide)
+- [Alerts and Notifications](https://redcap.ucdenver.edu/surveys/?s=8D4N7Y3FM9): Learn about the alerts and notifications feature (video)
+- [Calculations](https://redcap.ucdenver.edu/surveys/?s=6D3M7Y9F4C): Learn how to use simple calculations, if/then statements, nest calculations, and datediff calculations (video)
+- [Field Embedding](https://redcap.ucdenver.edu/surveys/?s=7M9C4D8FNY): Explore how to use the field embedding feature to format data entry and survey forms (video)
+- [Formatting REDCap Forms with HTML](https://redcap.ucdenver.edu/surveys/?s=6D3C8M9Y7F) (user guide)
+- [Logic Guide](https://redcap.ucdenver.edu/surveys/?s=7F9M3C4D8Y): Learn how to format logic in REDCap (user guide)
+- [Smart Variables](https://redcap.ucdenver.edu/surveys/?s=8D7F9M3C4Y): Learn how to use smart variables in REDCap (video)
+
+## Data Management
+
+### Data Management
+- [Data Entry](https://redcap.ucdenver.edu/surveys/?s=7D9M3F4C8Y): Learn how to add new records, edit existing records, use advanced data entry features, and navigate between records (video)
+- [Missing Data](https://redcap.ucdenver.edu/surveys/?s=3F7D9M4C8Y): Set specific missing data codes for your entire project (video)
+- [Advanced Features](https://redcap.ucdenver.edu/surveys/?s=8D7M3F9C4Y): Learn how to use some advanced REDCap features, including the randomization feature, the logging feature, the field comment log, the data import tool, and the data quality tool (video)
+- [Data Imports](https://redcap.ucdenver.edu/surveys/?s=9F7D3M4C8Y): A detailed look at use the import tool to import data from another source (video)
+- [Randomization](https://redcap.ucdenver.edu/surveys/?s=7M9D3F4C8Y): Learn how to use the randomization feature (video)
+- [Reports and Exports](https://redcap.ucdenver.edu/surveys/?s=8F9D3M4C7Y): Learn how to create a report, review basic statistics and charts, and export a report or full data set (video)
+- [Public Reports](https://redcap.ucdenver.edu/surveys/?s=9D7F3M4C8Y): Learn how to make reports accessible with a public link (video)
+
+## Surveys
+
+### Surveys
+- [Surveys](https://redcap.ucdenver.edu/surveys/?s=8F9M3D4C7Y): Learn how to enable surveys, the benefits of using surveys, setting up your survey, and the different ways you can distribute both initial and follow-up surveys (video)
+- [Survey Login](https://redcap.ucdenver.edu/surveys/?s=3F8D7M4C9Y): Learn how to use the survey login feature (video)
+- [Survey Queue](https://redcap.ucdenver.edu/surveys/?s=4F8D3M7C9Y): A deep dive into using the survey queue (video)
+- [PDF Auto-Archiver and e-Consent](https://redcap.ucdenver.edu/surveys/?s=7F3D8M9C4Y): Use REDCap's e-Consent framework to consent participants and save PDFs of the consent (video)
+- [Twilio](https://redcap.ucdenver.edu/surveys/?s=9F3D7M4C8Y): Learn how to use Twilio to send your survey invitations via text message or allow participants to take the survey via voice call (video)
+- [Twilio Guide](https://redcap.ucdenver.edu/surveys/?s=8F7D9M3C4Y) (user guide)
+
+## Optional Modules
+
+### Optional Modules
+- [Double Data Entry](https://redcap.ucdenver.edu/surveys/?s=4F7D3M9C8Y): Learn how to use REDCap's Double Data Entry module (video)
+- [Mobile App Guide](https://redcap.ucdenver.edu/surveys/?s=3F8D7M4C9Y) (user guide)
+- [Multi-Language Management Manual](https://redcap.ucdenver.edu/surveys/?s=8D3F7M4C9Y) (user guide)
+
+## Updates and Additional Features
+
+### Updates and Additional Features
+We hold a REDCap user group meeting for our active users after every major upgrade twice a year to discuss the new features. You can watch the recordings of our previous group videos on Vimeo:
+- [User Group Meeting 2/23/2023](https://vimeo.com/123456789): MyCap integration, automated invitations with repeating surveys, file repository improvements
+- [User Group Meeting 7/19/2022](https://vimeo.com/123456789): Multi-language management updates, survey start time and survey duration, FAQ updates
+- [User Group Meeting 3/9/2022](https://vimeo.com/123456789): Multi-language management, public reports, @IF form display logic
+- [User Group Meeting 8/11/2021](https://vimeo.com/123456789): Project dashboards, smart variables, smart charts, and smart tables
+- [User Group Meeting 3/31/2021](https://vimeo.com/123456789): @CALCDATE/@CALCTEXT and special functions
+- [User Group Meeting 8/26/2020](https://vimeo.com/123456789): eConsent, field embedding
+
+## Frequently Asked Questions
+
+### Frequently Asked Questions
+- **Can I add users to my project?**
+  Anyone creating projects should attend a tutorial (see schedule on Tutorials page) which focuses on project creation and REDCap use policies. If you have attended a
+
+ tutorial you can request limited accounts for others who will not be designing/managing projects but only doing data entry, data export, etc. To request an account email the REDCap administrator with the person's name and work email address. By doing this you are also taking responsibility for training them.
+  
+- **Why is the Participant ID the first field in the project?**
+  When you set up a REDCap database your record identifier e.g. Participant ID must be the first field on the first form so that REDCap will link all following data on all forms for that record. There is no need to repeat the record identifier in each form.
+
+- **How do I code categorical variables?**
+  If your categorical variable has numeric response options be sure to assign a value that is the same number to avoid confusion in analysis. For example if the question is "How many times did you ...." and the options are 0,1,2,3,4,5 you should assign values of 0-5 (note: you cannot use the auto-assign feature of REDCap because it will start with 1).
+
+- **When should I use the dropdown field type?**
+  Use dropdown field types instead of radio buttons for categorical variables on your data entry forms. REDCap allows you to type the first character of a label to select that option in a dropdown which is much easier than having to individually select each radio button with your mouse.
+
+- **How do I tell the difference between a radio and checkbox field?**
+  There is a visual cue to tell you whether a field is a radio button (single option) or a checkbox (choose all that apply). Radio buttons are round, checkboxes are square.
+
+- **How do I format branching logic or a calculation with checkbox fields?**
+  Checkbox or "choose all that apply" fields are coded slightly differently from other categorical fields such as radio or dropdown. In those each option is set to equal a unique value e.g. 1=red, 2=blue, 3=green. Because any or all of the checkbox field options can be selected, each option is treated as a separate field that is either checked or unchecked (coded 1 or 0). In your exported dataset you will see that each option has become a separate variable with the number of the option as part of the variable name e.g. color(1), color(2), color(3). When using options from a checkbox field in a calculation or in branching logic instead of writing "color = 3" for example you need to write "color(3)=1" meaning that option 3 of the variable "color" has been selected.
+
+- **How do I hide a section header field type using branching logic?**
+  Section header fields follow the branching logic for *all* fields until the next section header so to hide a section header all fields until the next section header must also be hidden.
+
+- **How do I format greater than/less than conditions in my branching logic?**
+  When using a greater than/less than (><) condition in branching logic don't put quotation marks around the value as you normally would when using equal to.
+
+- **How do I test branching logic and calculated fields in my form or survey?**
+  To test branching logic or calculated fields enter a test record into your database or survey. These functions do not work on the Preview screen. You can remove all test records when you move to production.
+
+- **How do I add an “other” option in a multiple field question that a participant can write in their answer?**
+  To include an "Other" option in a multiple choice question that will allow respondents to write in an answer, add a text field that is only displayed when the Other option is selected. If you want it to appear right next to the “Other” option in the multiple choice question you’ll need to use field embedding. You’ll follow the step above, but then additionally you’ll need to tell REDCap to embed the field with the multiple choice answers—this is done by putting the variable name in { } curly brackets where you want it to appear.
+
+- **Can I base a calculated field off another calculated field?**
+  If you are using calculated fields, avoid creating second-level calculations, i.e. using the results of a calculation as part of another calculation. These fields will not reliably calculate - even though values may appear in the field onscreen, the field may be blank in your exported dataset. Keep in mind the general recommendation to do calculations as part of analysis and keep only raw data in your REDCap database.
+
+- **Why isn’t my calculation saved?**
+  If you add a calculated field after you have collected the data used in the calculation you will need to resave the form containing the calculation to trigger REDCap to perform the calculation and populate the field. To update them all at once, you can go to Data Quality under Applications on the sidebar and run Rule H. It will show all fields where the calculated values don’t match what is saved and give you the option to update them all.
+
+- **Can I display an image in my form or survey?**
+  To display an image on your data entry form or survey use the descriptive text field type which has a field upload feature. For more information please see [Formatting REDCap Forms with HTML](https://redcap.ucdenver.edu/surveys/?s=6D3C8M9Y7F).
+
+- **Can I customize the appearance of my form or survey?**
+  REDCap allows some customization of form appearance using HTML code. These include font size, font color, and spacing/indentation of field label text.
+
+- **How do I set up the event grid in a longitudinal project?**
+  When setting up a Longitudinal project event grid, if you are not using the Scheduling module, you don't need to set specific "days offset" but you still need to enter something to tell REDCap the order of your events. If you leave all zero's REDCap will put your events in alphabetical order. So you can just put 1, 2, 3, etc. You may also want to use increments of 5's in case you later need to insert a new event.
+
+- **What happens if I accidently delete an event?**
+  In a Longitudinal Model database if you accidentally delete an event your data will not be lost just hidden. When you restore the event with the assigned forms the data will also be restored.
+
+- **Can I change the coding of my fields while in production?**
+  Although you can make changes to your project fields after moving your project to Production, keep in mind that changes to coding for categorical fields will impact your existing data. For example if you have a field with Yes/No responses that are coded 10 and you change these to 21 then what was originally coded as Yes will now be No - since you have changed the meaning of the value 1.
+
+- **How do I test my database before moving to production?**
+  It's a good idea to test your database or survey before moving to Production by entering a few records of either real or fake data. When moving to Production you can choose to keep or delete these records.
+
+- **How do I review the changes I have made before submitting?**
+  Before submitting post-production changes for review, you can see whether they will cause any problems by selecting the "view a detailed summary of all drafted changes" link located next to the Submit Changes for Review button.
+
+- **Will I lose data if submitting changes while in production?**
+  Project changes made after moving to production must be reviewed prior to being implemented to reduce the risk of data corruption due to a change. However, if you make a change that cannot possibly impact existing data (e.g. create a new field), once you submit the change for approval it will be approved automatically - you won't have to wait for manual review and approval by the administrator. To view whether you changes create potential issues while you're in draft mode, go to the "view a detailed summary of all drafted changes" link.
+
+- **What should I do if I need to make significant changes while in production?**
+  If your project is in production and you need to make several changes, consider making a copy of the project (which will be in development), making the changes there, then using the data dictionary to implement the changes all at once in the production project. Alternatively, you can ask the REDCap administrator to move your project back to development.
+
+- **How do I combine my instruments into a single survey?**
+  If you have multiple instruments that you want to send out as a single survey, combine them onto a single REDCap form. You can insert page breaks between instruments using the Section Header field type.
+
+- **How do I hide calculated fields in a survey?**
+  If you are including survey responses in a calculation but don't want the respondent to see the calculations, create a separate data entry form and put the calculation fields there. The calculations will be triggered when the survey is submitted.
+
+- **How do I schedule a survey to be sent at a specific date/time?**
+  Using the "automated invitations" feature you can schedule survey to be sent at a specific date/time as well as based on a specific response to a previous form or survey. See detailed instructions on how to do this in the Help/FAQ page.
+
+- **How can I set up surveys to go out automatically?**
+  If you are using online surveys, you can schedule them to be sent automatically at certain dates or based on specified conditions being met. See Automated Invitations in the Online Designer for instructions.
+
+- **How do I personalize an email invitation?**
+  REDCap allows you to customize field labels or survey invitations using "piping". This means you can insert the response to one field e.g. first name into the label of another field or into a survey invitation text. To do this just put the variable name in square brackets where you want the customized text. For example if the
+
+ respondent's first name is in a variable called "fname" you can add it to the label of another field like this: [fname] what is your favorite color? Similarly, when you write a survey invitation you can use: Dear [fname], please complete the attached survey. Whatever name has been entered in the field fname will appear in place of the variable name.
+
+- **How do I track survey responses?**
+  You can track who has responded to a survey by using the Participant List option. In addition, you can identify individual responses using the Participant Identifier feature. Both of these options are found in the Manage Survey Participants section of your project.
+
+- **Can I add or delete a survey response?**
+  It is possible to edit or delete survey responses. To do this, check the Edit Surveys option in the User Rights section.
+
+- **How do I verify if a survey respondent changed their answers?**
+  If you are concerned that survey respondents changed their answers before submitting their survey e.g. to try to qualify for a study you can check their responses in the Logging Tool.
+
+- **What is the logging tool?**
+  You can use the logging tool to troubleshoot issues that arise that may be due to a change in a data value, calculations and branching logic no longer working, etc. In the log you can filter by record, user, and event type.
+```
 ## Analysis with SQL (OHDSI/OMOP)
 
 The [OMOP Query Library](https://data.ohdsi.org/QueryLibrary/) is a library of commonly-used SQL queries for the OMOP Common Data Model (CDM).
